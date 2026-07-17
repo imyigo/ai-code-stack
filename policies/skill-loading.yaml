@@ -1,0 +1,77 @@
+schema_version: 1
+# The Skill Registry is the persistent, deterministic, rebuildable catalog of every
+# installed skill. Active Context is the temporary, per-task working set only.
+registry:
+  persistent: true
+  versioned: true
+  searchable: true
+  deterministic: true
+  rebuildable: true
+  cacheable: true
+  platform_independent: true
+  rescans_all_vendor_repositories_every_task: false
+active_context:
+  temporary: true
+  scoped_to_current_task_only: true
+unload_semantics:
+  # Unload is a context-cleanup operation only.
+  removes_from_active_context: true
+  deletes_skill_file: false
+  unregisters_from_registry: false
+  removes_manifest_entry: false
+  removes_alias_entry: false
+  breaks_vendor_link: false
+  statement: >
+    A skill's removal from active context does not mean the skill is deleted from the
+    system or forgotten. It must remain discoverable by metadata in the next task
+    without reloading every SKILL.md file.
+required_metadata_fields:
+  - id
+  - canonical_name
+  - title
+  - short_description
+  - full_description_path
+  - tags
+  - aliases
+  - supported_roles
+  - supported_platforms
+  - product_domains
+  - technologies
+  - source_vendor
+  - source_repository
+  - source_path
+  - version
+  - source_commit
+  - checksum
+  - dependencies
+  - optional_dependencies
+  - conflicts
+  - replacement_group
+  - priority
+  - security_classification
+  - risk_level
+  - loading_cost_estimate
+  - estimated_tokens_metadata
+  - estimated_tokens_summary
+  - estimated_tokens_full
+  - preferred_loading_level
+  - activation_conditions
+  - capability_requirements
+  - graphify_required
+  - fallback_behavior
+  - cache_key
+  - cache_validity
+  - last_indexed_at
+  - schema_version
+frontmatter_parser:
+  engine: real_yaml_parser
+  must_support:
+    - out_of_order_keys
+    - multiline_values
+    - quoted_values
+    - arrays
+    - utf8_bom
+    - crlf_line_endings
+    - lf_line_endings
+  must_be_consistent_across: [windows, macos, linux]
+  forbidden: regex_based_replacement_yaml_engine

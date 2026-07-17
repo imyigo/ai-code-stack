@@ -1,0 +1,33 @@
+schema_version: 1
+# Graphify is repository code intelligence only: symbol maps, module relationships,
+# dependency graphs, call chains, architecture maps, and impact analysis. It is never
+# used as skill memory, the Knowledge Registry, or cross-platform memory.
+role: repository_code_intelligence_only
+not_a: [skill_memory, knowledge_registry_replacement, cross_platform_memory]
+use_when:
+  - large_repository
+  - architecture_analysis
+  - dependency_analysis
+  - impact_analysis
+  - multi_file_refactor
+  - complex_call_chain
+  - cross_module_relationship_analysis
+skip_when:
+  - simple_question
+  - small_ui_change
+  - text_edit
+  - single_file_local_fix
+  - skill_discovery
+decision_flow:
+  - task_classified
+  - repository_intelligence_required: "no -> continue with registry metadata"
+  - repository_intelligence_required_yes:
+      - valid_index_exists: "yes -> reuse"
+      - valid_index_exists_no: "build only for the required scope"
+index_invalidation_signals:
+  - relevant_source_changed
+  - repository_commit_changed
+  - index_schema_changed
+  - graphify_version_incompatible
+  - checksum_verification_failed
+rebuild_policy: never_rebuild_every_task

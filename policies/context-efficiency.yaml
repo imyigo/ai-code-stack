@@ -1,0 +1,51 @@
+schema_version: 1
+# Metadata-first discovery and progressive disclosure. Never load full skill content first.
+principle: >
+  Evaluate lightweight metadata before loading any instruction body. Load only the
+  minimum instruction level required for correctness and safety, then release it from
+  active context. Unloading a skill from active context never deletes it from the
+  Skill Registry or Knowledge Registry.
+metadata_fields_evaluated_first:
+  - id
+  - canonical_name
+  - short_description
+  - tags
+  - aliases
+  - role_mapping
+  - product_domains
+  - platform_compatibility
+  - technology_match
+  - security_classification
+  - loading_cost_estimate
+  - dependencies
+  - conflicts
+  - activation_conditions
+loading_levels:
+  level_1_metadata_only:
+    contents: [id, canonical_name, short_description, tags, aliases]
+    when: always_first
+  level_2_summary:
+    contents: [summary, activation_rules, dependencies, conflicts]
+    when: candidate_shortlist_needs_disambiguation
+  level_3_partial_instructions:
+    contents: [only_the_instruction_sections_required_for_the_task]
+    when: a_skill_is_selected_for_use
+  level_4_full_content:
+    contents: [complete_skill_body]
+    when: genuinely_required_and_correctness_or_safety_depends_on_full_context
+integrity_rule: >
+  Do not truncate a section that is required for correctness or safety, even at
+  level_3. Token savings never override correctness, safety, or platform compliance.
+selection_priority_order:
+  - correctness
+  - safety
+  - maintainability
+  - task_relevance
+  - platform_compatibility
+  - token_efficiency
+  - execution_speed
+duplication_rule: >
+  Do not load two skills that cover the same scope. If one skill is sufficient, do
+  not select a second. Every selection and rejection should be explainable as
+  {skill_id, reason} for debug and verifier output; this explanation is not required
+  in every final user-facing response.

@@ -53,8 +53,14 @@ def verify(root: Path) -> Result:
     routing_text = (root / "policies" / "routing.yaml").read_text(encoding="utf-8")
     check("graphify_conditional", lambda: "large_repository" in routing_text and "small_ui_change" in routing_text or (_ for _ in ()).throw(ValueError("Graphify routing incomplete")))
     check("caveman_boundary", lambda: all(word in routing_text for word in ("stack_trace", "security_report", "test_result", "config")) or (_ for _ in ()).throw(ValueError("Caveman exclusions incomplete")))
-    check("adapter_outputs", lambda: len(adapter_outputs(root)) == 76 or (_ for _ in ()).throw(ValueError(f"expected 76 adapter files, got {len(adapter_outputs(root))}")))
-    for name in ("repositories", "skills", "platforms", "roles", "capabilities", "links", "checksums"):
+    def adapter_output_count():
+        expected = len(roles["roles"]) * 4 + 3
+        actual = len(adapter_outputs(root))
+        if actual != expected:
+            raise ValueError(f"expected {expected} adapter files, got {actual}")
+        return f"{actual} adapter files"
+    check("adapter_outputs", adapter_output_count)
+    for name in ("repositories", "skills", "platforms", "roles", "capabilities", "links", "knowledge-registry", "skill-routing", "token-costs", "cache-state", "checksums"):
         check(f"manifest_{name}", lambda n=name: json.loads((root / "manifests" / f"{n}.json").read_text(encoding="utf-8-sig"))["schema_version"])
     def checksum_check():
         payload = json.loads((root / "manifests" / "checksums.json").read_text(encoding="utf-8-sig"))

@@ -1,0 +1,46 @@
+schema_version: 1
+fail_closed: true
+risky_areas:
+  - authentication
+  - authorization
+  - jwt
+  - oauth
+  - payment
+  - webhook
+  - secrets
+  - user_data
+  - file_upload
+  - cryptography
+  - supply_chain
+  - ai_security
+  - public_api
+  - tenant_isolation
+flow: [review, risk_detection, narrow_security_review_if_risky, critical_or_high_check, qa, verify, ship]
+block_ship_when:
+  - unresolved_critical_or_high_finding
+  - security_report_missing_or_unreadable
+  - security_report_does_not_match_current_diff
+  - required_tests_did_not_pass
+cybersecurity_vendor_role: single_narrow_specialist_only_not_primary_security_orchestrator
+secret_scan_minimum_coverage:
+  - api_keys
+  - access_tokens
+  - private_keys
+  - passwords
+  - credentials
+  - dotenv_contents
+  - accidental_config_secrets
+push_blocked_by_any_of:
+  - failing_test
+  - failing_verifier
+  - unresolved_critical_or_high_finding
+  - secret_or_credential_found
+  - broken_manifest
+  - non_deterministic_rebuild
+  - wrong_remote
+  - merge_conflict
+  - user_changes_that_cannot_be_safely_separated
+  - caveman_altering_a_technical_artifact
+  - cross_platform_delegation_enabled
+  - fabricated_adapter_capability
+  - unreliable_rollback

@@ -1,0 +1,26 @@
+schema_version: 1
+cacheable_verified_outputs:
+  - parsed_frontmatter
+  - normalized_metadata
+  - aliases
+  - role_mappings
+  - platform_capabilities
+  - source_checksums
+  - source_commits
+  - token_estimates
+  - dependency_maps
+  - conflict_maps
+  - graphify_metadata
+  - adapter_compatibility_results
+invalidation_signals:
+  - source_commit_change
+  - file_checksum_change
+  - manifest_schema_change
+  - adapter_schema_change
+  - platform_version_change
+  - policy_version_change
+  - parser_version_change
+rules:
+  reparse_full_catalog_when_source_unchanged: false
+  regenerate_only_affected_section: true
+  treat_unverified_or_stale_capability_as_unknown: true

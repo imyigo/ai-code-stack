@@ -1,0 +1,39 @@
+schema_version: 1
+# Caveman is an optional layer that simplifies only safe final natural-language
+# communication to the user. It never touches technical artifacts.
+scope: safe_final_user_prose_only
+may_simplify:
+  - repeated_explanations
+  - unnecessary_preamble
+  - long_user_facing_summaries
+  - paragraphs_that_repeat_the_same_conclusion
+must_never_change:
+  - source_code
+  - commands
+  - terminal_output
+  - stack_traces
+  - errors
+  - logs
+  - diffs
+  - migrations
+  - sql
+  - json
+  - yaml
+  - toml
+  - xml
+  - config
+  - test_results
+  - security_findings
+  - benchmark_results
+  - file_paths
+  - checksums
+  - commit_hashes
+  - api_payloads
+  - build_output
+final_report_requirements:
+  may_be_short: true
+  must_always_include:
+    - errors_encountered
+    - verification_result
+    - commit_hash
+    - push_result

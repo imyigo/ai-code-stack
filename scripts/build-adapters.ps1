@@ -1,8 +1,12 @@
+# Thin wrapper: delegates to the canonical Python adapter builder. Contains no business logic.
 [CmdletBinding()]
-param([switch]$Check)
-. "$PSScriptRoot\Common.ps1"
-$root=Get-StackRoot;$required=@('orchestration\ORCHESTRATION.md','orchestration\ROUTING.md','orchestration\SECURITY.md','orchestration\RELEASE-GATE.md','orchestration\PRECEDENCE.md')
-$missing=@($required|Where-Object{!(Test-Path (Join-Path $root $_))});if($missing){throw "Canonical sources missing: $missing"}
-$generated=@('adapters\codex\AGENTS.md','adapters\claude-code\CLAUDE.md','adapters\cursor\AI-CODE-STACK.mdc')
-$bad=@($generated|Where-Object{!(Select-String -Quiet (Join-Path $root $_) 'GENERATED')});if($bad){throw "Generated marker missing: $bad"}
-New-Result success 'Adapter sources and generated markers verified.' @() ($generated|ForEach-Object{Join-Path $root $_})
+param([switch]$DryRun)
+$ErrorActionPreference = 'Stop'
+$root = Split-Path -Parent $PSScriptRoot
+$py = Get-Command python3 -ErrorAction SilentlyContinue
+if (-not $py) { $py = Get-Command python -ErrorAction SilentlyContinue }
+if (-not $py) { throw 'Python 3 is required.' }
+$extraArgs = @()
+if ($DryRun) { $extraArgs += '--dry-run' }
+& $py.Source (Join-Path $root 'scripts\build_adapters.py') --root $root @extraArgs
+exit $LASTEXITCODE

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+# Thin wrapper: delegates to the canonical Python installer. Contains no business logic.
 set -euo pipefail
 ROOT="$(cd "${BASH_SOURCE[0]%/*}" && pwd)"
-if command -v pwsh >/dev/null 2>&1; then PS=pwsh; elif command -v powershell.exe >/dev/null 2>&1; then PS=powershell.exe; else echo 'PowerShell is required.' >&2; exit 2; fi
-exec "$PS" -NoProfile -ExecutionPolicy Bypass -File "$ROOT/scripts/install.ps1" "$@"
+PY="$(command -v python3 || command -v python || true)"
+if [[ -z "$PY" ]]; then echo 'Python 3 is required.' >&2; exit 2; fi
+exec "$PY" "$ROOT/scripts/install.py" --root "$ROOT" "$@"
