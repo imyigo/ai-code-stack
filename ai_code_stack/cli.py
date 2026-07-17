@@ -8,6 +8,7 @@ from .installer import create_backup, install, rollback
 from .manifests import build_manifests
 from .adapters import build_adapters
 from .global_install import global_install
+from .replace_skills import replace_skills
 from .verifier import verify
 from .result import Result
 
@@ -36,6 +37,10 @@ def cmd_build_adapters(args: argparse.Namespace) -> int:
 
 def cmd_global_install(args: argparse.Namespace) -> int:
     return _print(global_install(args.root.resolve(), dry_run=not args.apply))
+
+
+def cmd_replace_skills(args: argparse.Namespace) -> int:
+    return _print(replace_skills(args.root.resolve(), dry_run=not args.apply))
 
 
 def cmd_rollback(args: argparse.Namespace) -> int:
@@ -77,6 +82,14 @@ def build_parser() -> argparse.ArgumentParser:
     )
     global_install_parser.add_argument("--apply", action="store_true", help="Write files. Without this flag, only plans and reports what would be written.")
     global_install_parser.set_defaults(func=cmd_global_install)
+
+    replace_skills_parser = subparsers.add_parser(
+        "replace-skills",
+        help="Replace ~/.claude/skills and ~/.codex/skills with exactly the skills selected by this repo. The previous skills/ directory is moved aside as a timestamped backup first, never deleted.",
+        parents=[root_parent],
+    )
+    replace_skills_parser.add_argument("--apply", action="store_true", help="Write files. Without this flag, only plans and reports what would change.")
+    replace_skills_parser.set_defaults(func=cmd_replace_skills)
 
     backup_parser = subparsers.add_parser("backup", help="Create a timestamped backup of manifests, adapters, and locks.", parents=[root_parent])
     backup_parser.set_defaults(func=cmd_backup)

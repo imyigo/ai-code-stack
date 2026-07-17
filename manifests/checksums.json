@@ -15,16 +15,20 @@
       "sha256": "05bbd126c4458db2399781d75b8582d5682bcd17d4ef3c631683f6295b6a8582"
     },
     {
+      "path": ".gstack/security-reports/2026-07-17T164634Z-cso-report.json",
+      "sha256": "3a74bbf642b0bc2115f05be352b1217f0ddd82436fba89a62b865cde574f321a"
+    },
+    {
       "path": "AGENTS.md",
       "sha256": "a9029f65a8d507564dbbc8f3d7ac4f7ed3a5ce4f9ca892192ab276a7dc879dc4"
     },
     {
       "path": "AI Code Stack Kur.bat",
-      "sha256": "14b80dc7b56e47813068e3d53fef0c33b33ffc4eb79dba0ce3cf22d3f9ad9340"
+      "sha256": "162710ff632844386cc1ae7c9f3ad022933b5e7f8056afc5e86c8bed9ffa9c52"
     },
     {
       "path": "AI Code Stack Kur.command",
-      "sha256": "509c5a7aa094b2d247d9651b1e8ee0ce012e1a21e28abf3c3ca63e9649e42e15"
+      "sha256": "c3d06a26f3a813e23eca57d262823977ced921ad1e9794a95eb29f3ee3b1f6e1"
     },
     {
       "path": "CLAUDE.md",
@@ -32,7 +36,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "af2788f3bc30be87ff87b9f08825c4f4e443054a381f9b3ed15e796f26a4d055"
+      "sha256": "a519c02011ce095dd95605b75029b04bc8e59125465e21512877d1c2b30da16d"
     },
     {
       "path": "adapters/antigravity/CAPABILITY.generated.md",
@@ -360,7 +364,7 @@
     },
     {
       "path": "ai_code_stack/cli.py",
-      "sha256": "75065056a20033e23ec59b18a302bdd408b8f4eda7fb14a66f2911397d33e556"
+      "sha256": "2d1dce80aaf80d0b688bb6a763dd0919a1d9d5af531285a4ab1d9305c9b4a409"
     },
     {
       "path": "ai_code_stack/filesystem.py",
@@ -389,6 +393,10 @@
     {
       "path": "ai_code_stack/platforms.py",
       "sha256": "fc6592673f4d97e2b09dfea7e93b7505d32d08fb2e102cc4defb6e899e5b31f4"
+    },
+    {
+      "path": "ai_code_stack/replace_skills.py",
+      "sha256": "a40be93729fe06a9a9776a4234e380904d27f196e05d13b7f1ed7f66552b3593"
     },
     {
       "path": "ai_code_stack/result.py",
@@ -547,6 +555,10 @@
       "sha256": "b6d466c8092671fd3dde9b09f659dfe2fb54c92704c009b4f650e159b90cd4ae"
     },
     {
+      "path": "replace-skills.sh",
+      "sha256": "f008c58f71076b6d429d988956b593dfa6933f5efbcbfc32b4a3e5b66085af52"
+    },
+    {
       "path": "requirements.txt",
       "sha256": "71749243f84428fee225bfaa796dca5ef6c1e83a98f6d2a407df615b0390d6fb"
     },
@@ -581,6 +593,14 @@
     {
       "path": "scripts/install.py",
       "sha256": "fdba0af7c44cb8ee39952e6f68cb2ea03240c813148ae9c750dcd65a1bcf8292"
+    },
+    {
+      "path": "scripts/replace-skills.ps1",
+      "sha256": "bd0ff24fb8ca9f210613a971fe49901867d84f0572252be1851af81afe94ff77"
+    },
+    {
+      "path": "scripts/replace_skills.py",
+      "sha256": "f338b63e7737fb86ffdd3398f61a8a63cf866864d472cb04d72c275c029445da"
     },
     {
       "path": "scripts/rollback.ps1",
@@ -625,6 +645,10 @@
     {
       "path": "tests/test_registry.py",
       "sha256": "6d19008f3872e57ae65d851e5e247b04ff25c8691b018bdf00f6e099c170b085"
+    },
+    {
+      "path": "tests/test_replace_skills.py",
+      "sha256": "28aea6ab23ed7dffc2086c95bc1dfd16a28ba4f4edc3504dbb47d133735055d9"
     },
     {
       "path": "tests/test_security_gate.py",

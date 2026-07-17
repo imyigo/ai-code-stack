@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "report_type": "gstack-cso",
+  "audited_at": "2026-07-17T17:00:22Z",
+  "audited_diff_sha256": "9c01b3e81a6654338f18998fc7084ef2deacf4eebd568a227ba6eb14fae40fa7",
+  "diff_base": "origin/main",
+  "scope": "New ai_code_stack/replace_skills.py (destructive-but-backed-up skills/ directory replacement for Claude Code and Codex), replace-skills CLI subcommand, replace-skills.sh / scripts/replace_skills.py / scripts/replace-skills.ps1 wrappers, launcher updates (AI Code Stack Kur.command / .bat now include a third opt-in replace-skills step with its own confirmation prompt), and README documentation of the full 3-step install model (install / global-install / replace-skills) plus a multi-machine quick-install one-liner.",
+  "reviewer": "claude-code-session",
+  "review_method": "manual diff review + secret-pattern grep over the full staged diff + review of the one new filesystem-mutating code path (replace_skills._replace_platform_skills), which was exercised live on this machine (real ~/.claude/skills and ~/.codex/skills replaced, prior content moved to timestamped backup directories, verified present and byte-identical afterward) and by 5 dedicated unit tests using an isolated fake $HOME",
+  "findings": [],
+  "totals": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "notes": [
+    "replace_skills.py never calls os.remove/shutil.rmtree on the existing skills/ directory; it uses shutil.move to rename it to skills.backup-<UTC timestamp> in the same parent directory before writing the new content, so the previous state is fully recoverable by a plain `mv` back.",
+    "Live-verified on this machine: ~/.claude/skills (108 entries) and ~/.codex/skills (283 entries) were replaced with the repo's 455 selected skills; both backup directories (~/.claude/skills.backup-20260717T165406Z, ~/.codex/skills.backup-20260717T165407Z) were confirmed to contain the original entries afterward.",
+    "Antigravity is unconditionally skipped for replace-skills (no skills directory exists for it on this machine, matching the codebase's stance of not fabricating unverified platform integrations). Cursor is out of scope for this command entirely (it only ever gets the existing additive global-install rule file, never a skills/ directory replacement).",
+    "No authentication, authorization, payment, session, or user-data code paths were touched. Secret-pattern scan over the full staged diff returned zero matches."
+  ]
+}
