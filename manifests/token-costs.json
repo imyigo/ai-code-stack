@@ -3992,1024 +3992,136 @@
       "active_name": "graphify",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 9915
+        "value": 9745
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 39660
+      "source_bytes": 38980
     },
     {
       "active_name": "cavecrew",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 1004
+        "value": 984
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 4018
+      "source_bytes": 3936
     },
     {
       "active_name": "caveman",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 1326
+        "value": 1306
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 5304
+      "source_bytes": 5227
     },
     {
       "active_name": "caveman-commit",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 663
+        "value": 647
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 2653
+      "source_bytes": 2588
     },
     {
       "active_name": "caveman-compress",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 1161
+        "value": 1133
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 4646
+      "source_bytes": 4535
     },
     {
       "active_name": "caveman-help",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 590
+        "value": 575
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 2363
+      "source_bytes": 2300
     },
     {
       "active_name": "caveman-review",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 698
+        "value": 684
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 2793
+      "source_bytes": 2739
     },
     {
       "active_name": "caveman-stats",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 154
+        "value": 151
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 617
+      "source_bytes": 607
     },
     {
       "active_name": "analyzing-sbom-for-supply-chain-vulnerabilities",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3009
+        "value": 2931
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 12036
+      "source_bytes": 11726
     },
     {
       "active_name": "assessing-vector-and-embedding-weaknesses",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3016
+        "value": 2958
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 12066
+      "source_bytes": 11833
     },
     {
       "active_name": "auditing-entra-id-with-aadinternals",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2694
+        "value": 2647
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 10776
+      "source_bytes": 10588
     },
     {
       "active_name": "building-devsecops-pipeline-with-gitlab-ci",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2221
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 8887
-    },
-    {
-      "active_name": "building-identity-federation-with-saml-azure-ad",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2520
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 10081
-    },
-    {
-      "active_name": "building-identity-governance-lifecycle-process",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 7433
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 29735
-    },
-    {
-      "active_name": "building-role-mining-for-rbac-optimization",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2600
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 10401
-    },
-    {
-      "active_name": "configuring-active-directory-tiered-model",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 635
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 2540
-    },
-    {
-      "active_name": "configuring-certificate-authority-with-openssl",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 840
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3363
-    },
-    {
-      "active_name": "configuring-hsm-for-key-storage",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 967
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3868
-    },
-    {
-      "active_name": "configuring-ldap-security-hardening",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 743
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 2972
-    },
-    {
-      "active_name": "configuring-multi-factor-authentication-with-duo",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1596
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 6386
-    },
-    {
-      "active_name": "configuring-oauth2-authorization-flow",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1700
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 6801
-    },
-    {
-      "active_name": "configuring-tls-1-3-for-secure-communications",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1081
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 4326
-    },
-    {
-      "active_name": "defending-llms-with-guardrails",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3077
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 12311
-    },
-    {
-      "active_name": "detecting-anomalous-authentication-patterns",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 7713
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 30854
-    },
-    {
-      "active_name": "detecting-broken-object-property-level-authorization",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 4044
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 16178
-    },
-    {
-      "active_name": "detecting-dependency-confusion",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2898
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 11595
-    },
-    {
-      "active_name": "detecting-malicious-npm-packages",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2562
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 10251
-    },
-    {
-      "active_name": "detecting-shadow-api-endpoints",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3645
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 14583
-    },
-    {
-      "active_name": "detecting-typosquatting-packages",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2991
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 11964
-    },
-    {
-      "active_name": "detecting-typosquatting-packages-in-npm-pypi",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3370
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 13482
-    },
-    {
-      "active_name": "generating-and-analyzing-sboms",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1884
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 7538
-    },
-    {
-      "active_name": "implementing-aes-encryption-for-data-at-rest",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1047
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 4189
-    },
-    {
-      "active_name": "implementing-api-abuse-detection-with-rate-limiting",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3398
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 13593
-    },
-    {
-      "active_name": "implementing-api-gateway-security-controls",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 4021
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 16085
-    },
-    {
-      "active_name": "implementing-api-key-security-controls",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 4073
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 16293
-    },
-    {
-      "active_name": "implementing-api-rate-limiting-and-throttling",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 4646
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 18587
-    },
-    {
-      "active_name": "implementing-api-schema-validation-security",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3501
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 14006
-    },
-    {
-      "active_name": "implementing-api-security-posture-management",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3766
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 15065
-    },
-    {
-      "active_name": "implementing-api-security-testing-with-42crunch",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2792
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 11168
-    },
-    {
-      "active_name": "implementing-api-threat-protection-with-apigee",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2825
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 11303
-    },
-    {
-      "active_name": "implementing-aqua-security-for-container-scanning",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1933
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 7735
-    },
-    {
-      "active_name": "implementing-aws-iam-permission-boundaries",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2269
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 9079
-    },
-    {
-      "active_name": "implementing-azure-ad-privileged-identity-management",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2659
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 10639
-    },
-    {
-      "active_name": "implementing-code-signing-for-artifacts",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1862
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 7448
-    },
-    {
-      "active_name": "implementing-conditional-access-policies-azure-ad",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 644
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 2576
-    },
-    {
-      "active_name": "implementing-data-loss-prevention-with-microsoft-purview",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 8099
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 32398
-    },
-    {
-      "active_name": "implementing-delinea-secret-server-for-pam",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 4385
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 17542
-    },
-    {
-      "active_name": "implementing-devsecops-security-scanning",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3192
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 12770
-    },
-    {
-      "active_name": "implementing-digital-signatures-with-ed25519",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 864
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3457
-    },
-    {
-      "active_name": "implementing-end-to-end-encryption-for-messaging",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 828
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3313
-    },
-    {
-      "active_name": "implementing-envelope-encryption-with-aws-kms",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 936
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3747
-    },
-    {
-      "active_name": "implementing-gdpr-data-subject-access-request",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2549
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 10197
-    },
-    {
-      "active_name": "implementing-github-advanced-security-for-code-scanning",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2264
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 9059
-    },
-    {
-      "active_name": "implementing-google-workspace-admin-security",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 4447
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 17788
-    },
-    {
-      "active_name": "implementing-google-workspace-sso-configuration",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1989
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 7956
-    },
-    {
-      "active_name": "implementing-hashicorp-vault-dynamic-secrets",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 5385
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 21541
-    },
-    {
-      "active_name": "implementing-identity-governance-with-sailpoint",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 775
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3100
-    },
-    {
-      "active_name": "implementing-infrastructure-as-code-security-scanning",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2241
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 8967
-    },
-    {
-      "active_name": "implementing-just-in-time-access-provisioning",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1310
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 5240
-    },
-    {
-      "active_name": "implementing-jwt-signing-and-verification",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 840
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3362
-    },
-    {
-      "active_name": "implementing-llm-guardrails-for-security",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2363
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 9455
-    },
-    {
-      "active_name": "implementing-pam-for-database-access",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 776
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3107
-    },
-    {
-      "active_name": "implementing-passwordless-auth-with-microsoft-entra",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 5546
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 22184
-    },
-    {
-      "active_name": "implementing-passwordless-authentication-with-fido2",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 673
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 2693
-    },
-    {
-      "active_name": "implementing-policy-as-code-with-open-policy-agent",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2649
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 10599
-    },
-    {
-      "active_name": "implementing-privileged-access-management-with-cyberark",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1837
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 7349
-    },
-    {
-      "active_name": "implementing-privileged-session-monitoring",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3086
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 12344
-    },
-    {
-      "active_name": "implementing-rsa-key-pair-management",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 904
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3617
-    },
-    {
-      "active_name": "implementing-runtime-application-self-protection",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 773
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3092
-    },
-    {
-      "active_name": "implementing-saml-sso-with-okta",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1695
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 6782
-    },
-    {
-      "active_name": "implementing-scim-provisioning-with-okta",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2318
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 9274
-    },
-    {
-      "active_name": "implementing-secret-scanning-with-gitleaks",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2920
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 11682
-    },
-    {
-      "active_name": "implementing-secrets-scanning-in-ci-cd",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 978
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3914
-    },
-    {
-      "active_name": "implementing-semgrep-for-custom-sast-rules",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1999
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 7997
-    },
-    {
-      "active_name": "implementing-sigstore-for-software-signing",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3304
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 13217
-    },
-    {
-      "active_name": "implementing-web-application-logging-with-modsecurity",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 666
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 2664
-    },
-    {
-      "active_name": "implementing-zero-knowledge-proof-for-authentication",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 822
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 3291
-    },
-    {
-      "active_name": "implementing-zero-standing-privilege-with-cyberark",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2373
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 9494
-    },
-    {
-      "active_name": "integrating-dast-with-owasp-zap-in-pipeline",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2133
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 8532
-    },
-    {
-      "active_name": "integrating-sast-into-github-actions-pipeline",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3147
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 12588
-    },
-    {
-      "active_name": "migrating-to-post-quantum-cryptography",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2980
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 11920
-    },
-    {
-      "active_name": "performing-access-recertification-with-saviynt",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 2823
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 11293
-    },
-    {
-      "active_name": "performing-access-review-and-certification",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 1580
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 6323
-    },
-    {
-      "active_name": "performing-api-inventory-and-discovery",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 4368
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 17474
-    },
-    {
-      "active_name": "performing-api-security-testing-with-postman",
-      "estimated_tokens_full": {
-        "estimate": true,
-        "value": 3924
-      },
-      "estimated_tokens_metadata": {
-        "estimate": true,
-        "value": 40
-      },
-      "source_bytes": 15698
-    },
-    {
-      "active_name": "performing-container-image-hardening",
       "estimated_tokens_full": {
         "estimate": true,
         "value": 2155
@@ -5018,451 +4130,1339 @@
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 8621
+      "source_bytes": 8623
+    },
+    {
+      "active_name": "building-identity-federation-with-saml-azure-ad",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2454
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 9816
+    },
+    {
+      "active_name": "building-identity-governance-lifecycle-process",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 7252
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 29010
+    },
+    {
+      "active_name": "building-role-mining-for-rbac-optimization",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2535
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 10141
+    },
+    {
+      "active_name": "configuring-active-directory-tiered-model",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 617
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 2468
+    },
+    {
+      "active_name": "configuring-certificate-authority-with-openssl",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 815
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3263
+    },
+    {
+      "active_name": "configuring-hsm-for-key-storage",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 939
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3759
+    },
+    {
+      "active_name": "configuring-ldap-security-hardening",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 719
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 2879
+    },
+    {
+      "active_name": "configuring-multi-factor-authentication-with-duo",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1557
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 6231
+    },
+    {
+      "active_name": "configuring-oauth2-authorization-flow",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1658
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 6632
+    },
+    {
+      "active_name": "configuring-tls-1-3-for-secure-communications",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1053
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 4215
+    },
+    {
+      "active_name": "defending-llms-with-guardrails",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3006
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 12027
+    },
+    {
+      "active_name": "detecting-anomalous-authentication-patterns",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 7524
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 30097
+    },
+    {
+      "active_name": "detecting-broken-object-property-level-authorization",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3942
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 15769
+    },
+    {
+      "active_name": "detecting-dependency-confusion",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2842
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 11371
+    },
+    {
+      "active_name": "detecting-malicious-npm-packages",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2513
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 10052
+    },
+    {
+      "active_name": "detecting-shadow-api-endpoints",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3550
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 14203
+    },
+    {
+      "active_name": "detecting-typosquatting-packages",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2933
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 11734
+    },
+    {
+      "active_name": "detecting-typosquatting-packages-in-npm-pypi",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3326
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 13306
+    },
+    {
+      "active_name": "generating-and-analyzing-sboms",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1838
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 7352
+    },
+    {
+      "active_name": "implementing-aes-encryption-for-data-at-rest",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1019
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 4076
+    },
+    {
+      "active_name": "implementing-api-abuse-detection-with-rate-limiting",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3299
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 13196
+    },
+    {
+      "active_name": "implementing-api-gateway-security-controls",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3903
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 15614
+    },
+    {
+      "active_name": "implementing-api-key-security-controls",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3969
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 15876
+    },
+    {
+      "active_name": "implementing-api-rate-limiting-and-throttling",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 4525
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 18103
+    },
+    {
+      "active_name": "implementing-api-schema-validation-security",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3392
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 13570
+    },
+    {
+      "active_name": "implementing-api-security-posture-management",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3662
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 14651
+    },
+    {
+      "active_name": "implementing-api-security-testing-with-42crunch",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2701
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 10807
+    },
+    {
+      "active_name": "implementing-api-threat-protection-with-apigee",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2742
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 10968
+    },
+    {
+      "active_name": "implementing-aqua-security-for-container-scanning",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1867
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 7470
+    },
+    {
+      "active_name": "implementing-aws-iam-permission-boundaries",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2203
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 8812
+    },
+    {
+      "active_name": "implementing-azure-ad-privileged-identity-management",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2592
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 10368
+    },
+    {
+      "active_name": "implementing-code-signing-for-artifacts",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1803
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 7215
+    },
+    {
+      "active_name": "implementing-conditional-access-policies-azure-ad",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 626
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 2505
+    },
+    {
+      "active_name": "implementing-data-loss-prevention-with-microsoft-purview",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 7948
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 31793
+    },
+    {
+      "active_name": "implementing-delinea-secret-server-for-pam",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 4273
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 17092
+    },
+    {
+      "active_name": "implementing-devsecops-security-scanning",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3094
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 12377
+    },
+    {
+      "active_name": "implementing-digital-signatures-with-ed25519",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 841
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3364
+    },
+    {
+      "active_name": "implementing-end-to-end-encryption-for-messaging",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 806
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3225
+    },
+    {
+      "active_name": "implementing-envelope-encryption-with-aws-kms",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 911
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3645
+    },
+    {
+      "active_name": "implementing-gdpr-data-subject-access-request",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2473
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 9894
+    },
+    {
+      "active_name": "implementing-github-advanced-security-for-code-scanning",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2211
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 8846
+    },
+    {
+      "active_name": "implementing-google-workspace-admin-security",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 4318
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 17272
+    },
+    {
+      "active_name": "implementing-google-workspace-sso-configuration",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1936
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 7744
+    },
+    {
+      "active_name": "implementing-hashicorp-vault-dynamic-secrets",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 5228
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 20912
+    },
+    {
+      "active_name": "implementing-identity-governance-with-sailpoint",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 750
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3002
+    },
+    {
+      "active_name": "implementing-infrastructure-as-code-security-scanning",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2175
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 8700
+    },
+    {
+      "active_name": "implementing-just-in-time-access-provisioning",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1277
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 5108
+    },
+    {
+      "active_name": "implementing-jwt-signing-and-verification",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 817
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3270
+    },
+    {
+      "active_name": "implementing-llm-guardrails-for-security",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2305
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 9220
+    },
+    {
+      "active_name": "implementing-pam-for-database-access",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 752
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3008
+    },
+    {
+      "active_name": "implementing-passwordless-auth-with-microsoft-entra",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 5401
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 21604
+    },
+    {
+      "active_name": "implementing-passwordless-authentication-with-fido2",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 653
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 2613
+    },
+    {
+      "active_name": "implementing-policy-as-code-with-open-policy-agent",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2567
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 10269
+    },
+    {
+      "active_name": "implementing-privileged-access-management-with-cyberark",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1792
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 7171
+    },
+    {
+      "active_name": "implementing-privileged-session-monitoring",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3000
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 12003
+    },
+    {
+      "active_name": "implementing-rsa-key-pair-management",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 879
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3517
+    },
+    {
+      "active_name": "implementing-runtime-application-self-protection",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 753
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3014
+    },
+    {
+      "active_name": "implementing-saml-sso-with-okta",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1652
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 6610
+    },
+    {
+      "active_name": "implementing-scim-provisioning-with-okta",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2255
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 9020
+    },
+    {
+      "active_name": "implementing-secret-scanning-with-gitleaks",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2834
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 11337
+    },
+    {
+      "active_name": "implementing-secrets-scanning-in-ci-cd",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 955
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3822
+    },
+    {
+      "active_name": "implementing-semgrep-for-custom-sast-rules",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1916
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 7666
+    },
+    {
+      "active_name": "implementing-sigstore-for-software-signing",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3253
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 13014
+    },
+    {
+      "active_name": "implementing-web-application-logging-with-modsecurity",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 646
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 2585
+    },
+    {
+      "active_name": "implementing-zero-knowledge-proof-for-authentication",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 800
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 3203
+    },
+    {
+      "active_name": "implementing-zero-standing-privilege-with-cyberark",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2311
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 9244
+    },
+    {
+      "active_name": "integrating-dast-with-owasp-zap-in-pipeline",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2067
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 8270
+    },
+    {
+      "active_name": "integrating-sast-into-github-actions-pipeline",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3063
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 12254
+    },
+    {
+      "active_name": "migrating-to-post-quantum-cryptography",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2926
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 11707
+    },
+    {
+      "active_name": "performing-access-recertification-with-saviynt",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2751
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 11004
+    },
+    {
+      "active_name": "performing-access-review-and-certification",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 1544
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 6177
+    },
+    {
+      "active_name": "performing-api-inventory-and-discovery",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 4257
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 17030
+    },
+    {
+      "active_name": "performing-api-security-testing-with-postman",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 3824
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 15296
+    },
+    {
+      "active_name": "performing-container-image-hardening",
+      "estimated_tokens_full": {
+        "estimate": true,
+        "value": 2089
+      },
+      "estimated_tokens_metadata": {
+        "estimate": true,
+        "value": 40
+      },
+      "source_bytes": 8358
     },
     {
       "active_name": "performing-cryptographic-audit-of-application",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 962
+        "value": 935
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 3851
+      "source_bytes": 3740
     },
     {
       "active_name": "performing-entitlement-review-with-sailpoint-iiq",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 4859
+        "value": 4736
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 19437
+      "source_bytes": 18944
     },
     {
       "active_name": "performing-graphql-security-assessment",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3612
+        "value": 3527
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 14449
+      "source_bytes": 14108
     },
     {
       "active_name": "performing-hardware-security-module-integration",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 599
+        "value": 581
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 2399
+      "source_bytes": 2325
     },
     {
       "active_name": "performing-oauth-scope-minimization-review",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 6392
+        "value": 6229
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 25570
+      "source_bytes": 24916
     },
     {
       "active_name": "performing-post-quantum-cryptography-migration",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3264
+        "value": 3178
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 13057
+      "source_bytes": 12712
     },
     {
       "active_name": "performing-privacy-impact-assessment",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2706
+        "value": 2634
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 10827
+      "source_bytes": 10539
     },
     {
       "active_name": "performing-privileged-account-access-review",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2000
+        "value": 1956
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 8001
+      "source_bytes": 7824
     },
     {
       "active_name": "performing-privileged-account-discovery",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 623
+        "value": 605
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 2492
+      "source_bytes": 2421
     },
     {
       "active_name": "performing-sca-dependency-scanning-with-snyk",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2280
+        "value": 2214
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 9122
+      "source_bytes": 8856
     },
     {
       "active_name": "performing-security-headers-audit",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3312
+        "value": 3230
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 13248
+      "source_bytes": 12923
     },
     {
       "active_name": "performing-service-account-audit",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 1387
+        "value": 1354
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 5550
+      "source_bytes": 5418
     },
     {
       "active_name": "performing-soap-web-service-security-testing",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 4262
+        "value": 4148
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 17051
+      "source_bytes": 16592
     },
     {
       "active_name": "performing-ssl-certificate-lifecycle-management",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 852
+        "value": 829
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 3411
+      "source_bytes": 3316
     },
     {
       "active_name": "performing-threat-modeling-with-owasp-threat-dragon",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2140
+        "value": 2086
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 8561
+      "source_bytes": 8347
     },
     {
       "active_name": "scanning-containers-with-trivy-in-cicd",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2769
+        "value": 2686
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 11077
+      "source_bytes": 10747
     },
     {
       "active_name": "scanning-iac-and-images-with-trivy",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2618
+        "value": 2553
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 10473
+      "source_bytes": 10213
     },
     {
       "active_name": "securing-agentic-ai-tool-invocation",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2947
+        "value": 2881
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 11791
+      "source_bytes": 11527
     },
     {
       "active_name": "securing-github-actions-workflows",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2239
+        "value": 2174
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 8959
+      "source_bytes": 8696
     },
     {
       "active_name": "testing-api-authentication-weaknesses",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 4485
+        "value": 4371
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 17942
+      "source_bytes": 17486
     },
     {
       "active_name": "testing-api-for-broken-object-level-authorization",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 4186
+        "value": 4087
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 16745
+      "source_bytes": 16351
     },
     {
       "active_name": "testing-api-for-mass-assignment-vulnerability",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 4108
+        "value": 4017
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 16433
+      "source_bytes": 16071
     },
     {
       "active_name": "testing-api-security-with-owasp-top-10",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3295
+        "value": 3207
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 13182
+      "source_bytes": 12829
     },
     {
       "active_name": "testing-cors-misconfiguration",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3109
+        "value": 3022
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 12438
+      "source_bytes": 12089
     },
     {
       "active_name": "testing-for-broken-access-control",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3382
+        "value": 3290
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 13528
+      "source_bytes": 13161
     },
     {
       "active_name": "testing-for-business-logic-vulnerabilities",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3342
+        "value": 3252
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 13369
+      "source_bytes": 13008
     },
     {
       "active_name": "testing-for-email-header-injection",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2163
+        "value": 2105
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 8655
+      "source_bytes": 8423
     },
     {
       "active_name": "testing-for-host-header-injection",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2273
+        "value": 2214
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 9092
+      "source_bytes": 8856
     },
     {
       "active_name": "testing-for-json-web-token-vulnerabilities",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2268
+        "value": 2207
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 9075
+      "source_bytes": 8831
     },
     {
       "active_name": "testing-for-open-redirect-vulnerabilities",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2021
+        "value": 1968
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 8085
+      "source_bytes": 7874
     },
     {
       "active_name": "testing-for-sensitive-data-exposure",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3668
+        "value": 3574
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 14673
+      "source_bytes": 14296
     },
     {
       "active_name": "testing-for-xml-injection-vulnerabilities",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2010
+        "value": 1953
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 8041
+      "source_bytes": 7814
     },
     {
       "active_name": "testing-for-xxe-injection-vulnerabilities",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 3145
+        "value": 3055
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 12581
+      "source_bytes": 12223
     },
     {
       "active_name": "testing-jwt-token-security",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2955
+        "value": 2866
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 11821
+      "source_bytes": 11467
     },
     {
       "active_name": "testing-oauth2-implementation-flaws",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 4472
+        "value": 4370
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 17890
+      "source_bytes": 17481
     },
     {
       "active_name": "testing-websocket-api-security",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 4776
+        "value": 4663
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 19105
+      "source_bytes": 18654
     },
     {
       "active_name": "verifying-build-provenance-with-slsa-sigstore",
       "estimated_tokens_full": {
         "estimate": true,
-        "value": 2629
+        "value": 2582
       },
       "estimated_tokens_metadata": {
         "estimate": true,
         "value": 40
       },
-      "source_bytes": 10519
+      "source_bytes": 10328
     }
   ]
 }

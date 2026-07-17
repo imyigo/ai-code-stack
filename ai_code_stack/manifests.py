@@ -16,7 +16,7 @@ MANIFEST_FILES = (
     "skill-routing.json", "token-costs.json", "cache-state.json", "checksums.json",
 )
 
-_EXCLUDED_DIR_NAMES = {".git", "vendors", "__pycache__", "backups", "work", ".gate-test"}
+_EXCLUDED_DIR_NAMES = {".git", "vendors", "__pycache__", "backups", "work", ".gate-test", ".pytest_cache", ".venv"}
 
 
 def _load_yaml(path: Path) -> dict:

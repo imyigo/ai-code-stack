@@ -3,7 +3,7 @@
 
   "repositories": [
     {
-      "branch": "main",
+      "branch": null,
       "clean": true,
       "commit": "ed387446052dfbc6b52de149406b70efa65edc59",
       "expected_commit": "ed387446052dfbc6b52de149406b70efa65edc59",
@@ -14,7 +14,7 @@
       "url": "https://github.com/affaan-m/everything-claude-code.git"
     },
     {
-      "branch": "main",
+      "branch": null,
       "clean": true,
       "commit": "a3259400a366593e0c909dd9ac3e59752efd2488",
       "expected_commit": "a3259400a366593e0c909dd9ac3e59752efd2488",
@@ -25,7 +25,7 @@
       "url": "https://github.com/garrytan/gstack.git"
     },
     {
-      "branch": "v8",
+      "branch": null,
       "clean": true,
       "commit": "be80ee82d5e83e9bfe8e3f19eb146e214a142b45",
       "expected_commit": "be80ee82d5e83e9bfe8e3f19eb146e214a142b45",
@@ -36,7 +36,7 @@
       "url": "https://github.com/Graphify-Labs/graphify.git"
     },
     {
-      "branch": "main",
+      "branch": null,
       "clean": true,
       "commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
       "expected_commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
@@ -47,7 +47,7 @@
       "url": "https://github.com/JuliusBrussee/caveman.git"
     },
     {
-      "branch": "main",
+      "branch": null,
       "clean": true,
       "commit": "673da1f3b0b7be34ffc9624ef3858fe45f1c3bed",
       "expected_commit": "673da1f3b0b7be34ffc9624ef3858fe45f1c3bed",

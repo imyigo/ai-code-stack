@@ -179,6 +179,72 @@ Korunması zorunlu içerikler:
 
 Güvenlik uyarılarında veya işlem sırasının yanlış anlaşılabileceği durumlarda sıkıştırma bırakılır ve açık anlatım kullanılır.
 
+## Kayıt katmanları: Skill Registry, Knowledge Registry, Active Context, Graphify, Caveman
+
+Beş katman farklı sorumluluklara sahiptir ve birbirinin yerine geçmez.
+
+- **Skill Registry** (`policies/skill-loading.yaml`, `manifests/skills.json`): kurulu her skill'in kalıcı, deterministik, yeniden inşa edilebilir kataloğu. Vendor deposu, commit, checksum, alias ve metadata alanlarını taşır. Her `verify` çalıştırmasında aynı girdilerden aynı çıktı üretir.
+- **Knowledge Registry** (`policies/knowledge-registry.yaml`, `manifests/knowledge-registry.json`): skill'leri, rolleri, policy'leri, vendor'ları, alias'ları, capability'leri, platform adapter'larını ve routing kurallarını kapsayan daha geniş statik mühendislik bilgisi indeksi. Konuşma geçmişini, kullanıcı görev içeriğini, agent akıl yürütmesini veya platformlar arası paylaşılan durumu **asla** içermez.
+- **Active Context**: yalnızca geçerli görev için geçici, kapsamı dar çalışma kümesi. Bir skill'in içerik seviyesi (metadata → summary → partial → full) göreve göre yükselir; görev bitince context'ten düşer.
+- **Graphify**: yalnızca kod tabanı zekâsıdır — sembol haritaları, modül ilişkileri, bağımlılık grafiği, çağrı zincirleri, mimari ve etki analizi. Skill hafızası, Knowledge Registry'nin yerine geçen bir şey veya platformlar arası bellek **değildir**.
+- **Caveman**: yalnızca güvenli final kullanıcı mesajını kısaltır. Kod, komut, diff, JSON/YAML/SQL, test sonucu, güvenlik bulgusu, checksum veya commit hash'ine dokunmaz.
+
+Zorunlu cümle:
+
+> Bir skill'in active context'ten çıkarılması, skill'in sistemden silindiği veya unutulduğu anlamına gelmez.
+
+### 5 çalışma örneği
+
+**1. Context'ten düşme, registry'den silinme değildir**
+
+> Bir görevde `react-reviewer` skill'i tam içerikle yüklenip kullanıldı, görev bitti ve context'ten düştü.
+
+```text
+Skill Registry'deki kayıt aynen durur (id, checksum, source_commit değişmez)
+→ sonraki görevde skill yeniden taranmaz, yalnız metadata'dan bulunur
+→ gerekiyorsa yeniden tam içerik seviyesine yüklenir
+```
+
+**2. Knowledge Registry, konuşma durumunu tutmaz**
+
+> Bir önceki oturumda hangi dosyaların değiştirildiği, agent'ın o oturumdaki akıl yürütmesi bir sonraki oturuma "hafıza" olarak aktarılmak istendi.
+
+```text
+Knowledge Registry bu isteği karşılamaz (conversation_history ve agent_reasoning dışlanmıştır)
+→ Claude Code oturumu Cursor'a veya Codex'e devredilmez
+→ kalıcı olması gereken şey varsa checkpoint dosyası veya commit mesajı olarak yazılır
+```
+
+**3. Graphify skill hafızası değildir**
+
+> "Graphify zaten hangi skill'lerin kurulu olduğunu biliyor, o zaman registry'yi atlayalım" varsayımı.
+
+```text
+Yanlış varsayım: Graphify yalnız kod sembolü/bağımlılık/çağrı-zinciri indeksidir
+→ skill keşfi her zaman Skill Registry'den yapılır
+→ Graphify yalnız büyük mimari/etki analizi gerektiğinde devreye girer
+```
+
+**4. Registry, deterministik olarak yeniden inşa edilebilir**
+
+> `vendors/` alt modülleri sıfırdan checkout edildi (bu oturumda gerçekten yaşandı); hiçbir aktif context taşınmadı.
+
+```text
+python -m ai_code_stack.cli build-manifests aynı commit'lerden aynı 456→455 skill kaydını üretir
+→ verify aynı 25 kontrolü tekrar çalıştırır
+→ hiçbir görev geçmişine veya önceki context'e bağımlılık yoktur
+```
+
+**5. Caveman katmanı yapısal veriye dokunmaz**
+
+> Kullanıcıya "testler geçti" özetini kısaltılmış caveman diliyle vermek isteniyor, ancak özet içinde ham test çıktısı, commit hash'i ve güvenlik bulgusu var.
+
+```text
+Caveman yalnız cümleleri kısaltır: "48/48 test geçti, commit ba12..., açık bulgu yok"
+→ commit hash, sayı ve bulgu durumu harf harf korunur
+→ JSON/diff/stack trace hiç caveman'a girmez
+```
+
 ## Standart geliştirme akışı
 
 ```text

@@ -30,7 +30,13 @@ def _git(path: Path, *args: str) -> str:
 def _skill_dirs(root: Path) -> list[Path]:
     if not root.exists():
         return []
-    return sorted(path for path in root.iterdir() if path.is_dir() and (path / "SKILL.md").is_file())
+    # Skip symlinked directories: vendors may keep a symlink alias pointing at a
+    # real skill dir (e.g. gstack's connect-chrome -> open-gstack-browser), and
+    # following it would register the same skill twice under different vendor_names.
+    return sorted(
+        path for path in root.iterdir()
+        if path.is_dir() and not path.is_symlink() and (path / "SKILL.md").is_file()
+    )
 
 
 def discover_sources(root: Path) -> list[SkillSource]:

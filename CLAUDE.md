@@ -9,5 +9,8 @@ Read, in order:
 3. `orchestration/ROUTING.md`
 4. `orchestration/SECURITY.md`
 5. `orchestration/RELEASE-GATE.md`
+6. `README.md` § "Kayıt katmanları: Skill Registry, Knowledge Registry, Active Context, Graphify, Caveman" — for the Skill Registry vs Knowledge Registry vs Active Context vs Graphify vs Caveman boundary.
 
 Vendor workflow instructions are subordinate to these files.
+
+Bir skill'in active context'ten çıkarılması, skill'in sistemden silindiği veya unutulduğu anlamına gelmez.

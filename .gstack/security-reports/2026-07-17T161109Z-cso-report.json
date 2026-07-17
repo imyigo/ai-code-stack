@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "report_type": "gstack-cso",
+  "audited_at": "2026-07-17T16:11:09Z",
+  "audited_diff_sha256": "bb67595c9ac05aceb6dd5ef4e638a156ee07429db3f35a0606ccc2f172b8a28f",
+  "diff_base": "origin/main",
+  "scope": "Task #7/#9/#10 follow-up to commit 1ea965d: symlink-alias dedup fix in ai_code_stack/inventory.py, manifest checksum exclusion list extension in ai_code_stack/manifests.py, new pytest coverage for installer dry-run/adapter capability-fallback/link-strategy, README/AGENTS.md/CLAUDE.md documentation of the Skill Registry vs Knowledge Registry vs Active Context vs Graphify vs Caveman boundary, and removal of docs/SESSION-CHECKPOINT.md.",
+  "reviewer": "claude-code-session",
+  "review_method": "manual diff review + repo-wide secret-pattern grep over the changed/added files (api key, password, private key, AWS/GitHub/Slack token shapes) + review of subprocess call sites for shell injection risk",
+  "findings": [],
+  "totals": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "notes": [
+    "No authentication, authorization, payment, session, secret-handling, or user-data code paths were touched in this diff.",
+    "The only filesystem-write-affecting change is the checksum-scan exclusion list gaining '.pytest_cache' and '.venv'; both are local dev/test artifacts already covered by the pre-existing exclusion pattern's intent (backups/work/.gate-test), not user-controlled input.",
+    "The _skill_dirs() fix in inventory.py only narrows what counts as a discoverable skill directory (excludes symlinks); it does not change how any file is read, written, or executed.",
+    "subprocess usage (ai_code_stack/inventory.py _git(), ai_code_stack/platforms.py command_version()) was already list-argument-based (no shell=True) prior to this diff and was not modified.",
+    "Secret-pattern scan (api_key, password, private key headers, AKIA/ghp_/xox tokens) over the full diff and new test file returned zero matches."
+  ]
+}

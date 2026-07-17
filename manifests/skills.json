@@ -6340,7 +6340,7 @@
         "name": "graphify"
       },
       "repository": "graphify",
-      "sha256": "e6ca107dbefddf37f8c63ed150ad24662a1722af9fc4194906bc9df6e6ddf789",
+      "sha256": "1f150a12dc49d6e39c35f8a89f2a2819136a3edff8e95f1f214b6ef666d43c6b",
       "skill_file": "vendors/graphify/graphify/skill.md",
       "source_path": "vendors/graphify/graphify",
       "vendor_name": "graphify"
@@ -6353,7 +6353,7 @@
         "name": "cavecrew"
       },
       "repository": "caveman",
-      "sha256": "f1ce6b651c9431cc248061471bf247787c2491c0b02b912691fc8f690f01be04",
+      "sha256": "b74f374f6aae6e9a31e78e7d876860406fe5833378e9298536edf176c12f379b",
       "skill_file": "vendors/caveman/skills/cavecrew/SKILL.md",
       "source_path": "vendors/caveman/skills/cavecrew",
       "vendor_name": "cavecrew"
@@ -6366,7 +6366,7 @@
         "name": "caveman"
       },
       "repository": "caveman",
-      "sha256": "429b284113acbcd2fe6d8721211efb700bba440ca5c4a625a614b781ad669c90",
+      "sha256": "5e30bb56afbd0b01bd736f2da84180e76f18db4a64de8e124525d5c8dc2e8605",
       "skill_file": "vendors/caveman/skills/caveman/SKILL.md",
       "source_path": "vendors/caveman/skills/caveman",
       "vendor_name": "caveman"
@@ -6379,7 +6379,7 @@
         "name": "caveman-commit"
       },
       "repository": "caveman",
-      "sha256": "54d5ca0894ecab0c74361d0077b71ff4e0bb60c67546880c1807bc8406ea7aab",
+      "sha256": "58db7b8efab911a629c26e7132517d9076e4e3645009eb604cb8c25663477841",
       "skill_file": "vendors/caveman/skills/caveman-commit/SKILL.md",
       "source_path": "vendors/caveman/skills/caveman-commit",
       "vendor_name": "caveman-commit"
@@ -6392,7 +6392,7 @@
         "name": "caveman-compress"
       },
       "repository": "caveman",
-      "sha256": "208475f3dcdd425f5452551b2b6acb8c1879e19edbbad47450113904e5f9732e",
+      "sha256": "8b0d64c622d8a70411bbd86e736ac23cc0465fca1943a37f081e58e9d3afd210",
       "skill_file": "vendors/caveman/skills/caveman-compress/SKILL.md",
       "source_path": "vendors/caveman/skills/caveman-compress",
       "vendor_name": "caveman-compress"
@@ -6405,7 +6405,7 @@
         "name": "caveman-help"
       },
       "repository": "caveman",
-      "sha256": "c6fea66aacc891b9595aae54b2c8335c322e61f83ad8693e24d3b3ab8603849a",
+      "sha256": "590d6c6c17254bda56d18da7cc9d0bf252aeec5d1c78b77dd7ae4cabb8404f89",
       "skill_file": "vendors/caveman/skills/caveman-help/SKILL.md",
       "source_path": "vendors/caveman/skills/caveman-help",
       "vendor_name": "caveman-help"
@@ -6418,7 +6418,7 @@
         "name": "caveman-review"
       },
       "repository": "caveman",
-      "sha256": "f5fcb5ec7cb461bfd95a6f5eb6dbe624967057dce7992e71213bcd3462ace742",
+      "sha256": "9ef09065f26b9781275b5a4775e14870e331fab833efb2a2aa33f3205a2b83c3",
       "skill_file": "vendors/caveman/skills/caveman-review/SKILL.md",
       "source_path": "vendors/caveman/skills/caveman-review",
       "vendor_name": "caveman-review"
@@ -6431,7 +6431,7 @@
         "name": "caveman-stats"
       },
       "repository": "caveman",
-      "sha256": "7d6ba2ee3fb9b1629b6e95b326a0559f758d881d2ba826120fdfd625f578218d",
+      "sha256": "b9e49e46ede956e0c1633eae82a695c996f728bc48f3903f001d301068a2b0ea",
       "skill_file": "vendors/caveman/skills/caveman-stats/SKILL.md",
       "source_path": "vendors/caveman/skills/caveman-stats",
       "vendor_name": "caveman-stats"
@@ -6483,7 +6483,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "30850fd8153e6f2d5e26d417b8d179260593ee760add4746e60890a5073196e3",
+      "sha256": "23d96721e66fbe5327d25641115e76eb7711c065defbb0ccaadd585fe008a391",
       "skill_file": "vendors/cybersecurity/skills/analyzing-sbom-for-supply-chain-vulnerabilities/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/analyzing-sbom-for-supply-chain-vulnerabilities",
       "vendor_name": "analyzing-sbom-for-supply-chain-vulnerabilities"
@@ -6517,7 +6517,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "6eb2fffe485abc6cc4c6fcf90e0c0c8af6ecf41b7397177133ea9890e88eabef",
+      "sha256": "6f6ec3f2c6210c68b469e414ff69d412b234d1a7b8739473aac7aebf8a8d7d58",
       "skill_file": "vendors/cybersecurity/skills/assessing-vector-and-embedding-weaknesses/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/assessing-vector-and-embedding-weaknesses",
       "vendor_name": "assessing-vector-and-embedding-weaknesses"
@@ -6551,7 +6551,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "1dfbd5036c046eae4d620a1caef3e95d5c3978d40c5099836d3521087ba1b05b",
+      "sha256": "850057f40326bdc0740dac8d94e1b54366f294a2a666a443fcd216923fa3bb64",
       "skill_file": "vendors/cybersecurity/skills/auditing-entra-id-with-aadinternals/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/auditing-entra-id-with-aadinternals",
       "vendor_name": "auditing-entra-id-with-aadinternals"
@@ -6592,7 +6592,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "a89ec56e277eb883f6e66a537cbada3bad702c3eef2ae2fd426718937066aa43",
+      "sha256": "e35605005b2954dfcd9a5f20758b8a4238b7bd017ae80d22cc02e37aa7bfa0bc",
       "skill_file": "vendors/cybersecurity/skills/building-devsecops-pipeline-with-gitlab-ci/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/building-devsecops-pipeline-with-gitlab-ci",
       "vendor_name": "building-devsecops-pipeline-with-gitlab-ci"
@@ -6672,7 +6672,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c7e55373cab220c3808e4b44207558bf6195e32fb412bdd31f3b6605eefa3f0a",
+      "sha256": "512846afb2da565564427acb8ef8afca26130d88c73fc5a04b107020002eec32",
       "skill_file": "vendors/cybersecurity/skills/building-identity-federation-with-saml-azure-ad/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/building-identity-federation-with-saml-azure-ad",
       "vendor_name": "building-identity-federation-with-saml-azure-ad"
@@ -6756,7 +6756,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "0e132f12cc679b1d41ecc505c859cb3f146e592f0759de9d05f53a8608afa385",
+      "sha256": "e6c8daa0b22859247c2969c7b78106c3d2f1ce29578937379cd105255a976489",
       "skill_file": "vendors/cybersecurity/skills/building-identity-governance-lifecycle-process/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/building-identity-governance-lifecycle-process",
       "vendor_name": "building-identity-governance-lifecycle-process"
@@ -6793,7 +6793,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "1862b71620a9251b4b8bfd2d50d941bbe700eb821c4a7173402d95b0ab27ebf7",
+      "sha256": "6d8df79f1a1001fa79bb92d48d5badc53bb072771c488e71c4b029be252206b0",
       "skill_file": "vendors/cybersecurity/skills/building-role-mining-for-rbac-optimization/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/building-role-mining-for-rbac-optimization",
       "vendor_name": "building-role-mining-for-rbac-optimization"
@@ -6833,7 +6833,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "771f8dcb7f9438207bc903e1b5024747fd6bee6376618a1078ab1819008c99d1",
+      "sha256": "cce690d68bc13de2f6c4611cfd2935db0950421d95bd49b1b6492570249c8ce6",
       "skill_file": "vendors/cybersecurity/skills/configuring-active-directory-tiered-model/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/configuring-active-directory-tiered-model",
       "vendor_name": "configuring-active-directory-tiered-model"
@@ -6869,7 +6869,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "3de4fb6ee5662d407328597c77f3206644ef5f7e9c0d4b97da6a7208f3f5c926",
+      "sha256": "64c09e09497a6556396f08fd699cabf8c823ddc38037d11c1da0f9a92610f47d",
       "skill_file": "vendors/cybersecurity/skills/configuring-certificate-authority-with-openssl/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/configuring-certificate-authority-with-openssl",
       "vendor_name": "configuring-certificate-authority-with-openssl"
@@ -6914,7 +6914,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "95221ed44c9718526686866f2d28b3d4f6aed97f646be3443842d6149c091648",
+      "sha256": "75852f7ce6aefdf042916a4a1afc78092bee02318f25aa76f2e54ad75b7cb742",
       "skill_file": "vendors/cybersecurity/skills/configuring-hsm-for-key-storage/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/configuring-hsm-for-key-storage",
       "vendor_name": "configuring-hsm-for-key-storage"
@@ -6986,7 +6986,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "801fa00a1195d652308216e92a2c637f39f77c131caf91271f512af8d91cceea",
+      "sha256": "0b1f311dc4b7781134d462b5c33b62cfd33dd8046b0a821b49e8d838d3944185",
       "skill_file": "vendors/cybersecurity/skills/configuring-ldap-security-hardening/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/configuring-ldap-security-hardening",
       "vendor_name": "configuring-ldap-security-hardening"
@@ -7026,7 +7026,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "d26c09e79932947693c87ab80eddbff3a64057a1b6aae5a42ee632f823cf4118",
+      "sha256": "1eeeabee9b01128cc2248a0ba11255c6951f3fe539557cac81427b1b50a3dabd",
       "skill_file": "vendors/cybersecurity/skills/configuring-multi-factor-authentication-with-duo/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/configuring-multi-factor-authentication-with-duo",
       "vendor_name": "configuring-multi-factor-authentication-with-duo"
@@ -7100,7 +7100,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c428a421ff6aea50f8a8d3ab9198177aa0c29223762e1f4d6c533b87ab483e9a",
+      "sha256": "64a38041003b04ad889e5a543d7f97e784b4e2a37f9dceb6190ff82bdd9141ef",
       "skill_file": "vendors/cybersecurity/skills/configuring-oauth2-authorization-flow/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/configuring-oauth2-authorization-flow",
       "vendor_name": "configuring-oauth2-authorization-flow"
@@ -7137,7 +7137,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "5fcf720175fd797d32c5151234a815d5ce854f29e8865e3cdeb5f3a12e14adf1",
+      "sha256": "f98d7ad59b93bf0fe740ba07dc0651c98c94fdb946a5f52755365a9698624e28",
       "skill_file": "vendors/cybersecurity/skills/configuring-tls-1-3-for-secure-communications/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/configuring-tls-1-3-for-secure-communications",
       "vendor_name": "configuring-tls-1-3-for-secure-communications"
@@ -7171,7 +7171,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "ef85b4b99e485779186754e4e045820d4da018d05f15b897e3cf874661f83e59",
+      "sha256": "b602611857e4fe41b0e447c82c6394c29ab111b85584ace24277e9bcea61e914",
       "skill_file": "vendors/cybersecurity/skills/defending-llms-with-guardrails/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/defending-llms-with-guardrails",
       "vendor_name": "defending-llms-with-guardrails"
@@ -7258,7 +7258,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "e99b5a92788cb6a0bf24635ca1f295d752c5dd39e6d06d19cc1b8a24078f43b0",
+      "sha256": "9a97dad02e90f0ba15b6b090673d763820e7d4160a50898093a2b8c6d7bd5cbc",
       "skill_file": "vendors/cybersecurity/skills/detecting-anomalous-authentication-patterns/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/detecting-anomalous-authentication-patterns",
       "vendor_name": "detecting-anomalous-authentication-patterns"
@@ -7297,7 +7297,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "39a1cdb2769a311124fd24a9cbbef97b4415629feca21bde5455af3c5feabfb3",
+      "sha256": "e559b5673d5550cb39996b7947cf59dffe979dc73c8a670c65fffbb6a77421e2",
       "skill_file": "vendors/cybersecurity/skills/detecting-broken-object-property-level-authorization/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/detecting-broken-object-property-level-authorization",
       "vendor_name": "detecting-broken-object-property-level-authorization"
@@ -7331,7 +7331,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "cc5f7b96a053b0652996eae3bb01c52c44333e1e9c5d103649e5fd1e2f97fda5",
+      "sha256": "ff2ca0885efe1c4b64803468475708be658e5ac2d01dbdff15178c6302f0797d",
       "skill_file": "vendors/cybersecurity/skills/detecting-dependency-confusion/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/detecting-dependency-confusion",
       "vendor_name": "detecting-dependency-confusion"
@@ -7365,7 +7365,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "df24277680a652ef457b4770793ccea767db4d831251d4ee3a5f08f50d2c7e6c",
+      "sha256": "a1537f89b6a9f2eba7b3b4e61eca3ea89a73d080dd1b4a3c93db981266bf630c",
       "skill_file": "vendors/cybersecurity/skills/detecting-malicious-npm-packages/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/detecting-malicious-npm-packages",
       "vendor_name": "detecting-malicious-npm-packages"
@@ -7405,7 +7405,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "d8a7762e5a8c713eee6d416b25f5c5049cc87238b62363d9892092123089bd7e",
+      "sha256": "a9186ea267277d6cce368ff485ff0c610360099a7962c7281b596d245d22a40e",
       "skill_file": "vendors/cybersecurity/skills/detecting-shadow-api-endpoints/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/detecting-shadow-api-endpoints",
       "vendor_name": "detecting-shadow-api-endpoints"
@@ -7439,7 +7439,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "2df71e35c7c0dc5f9999b014ceb385e283701aedf7e1f605aeba06a14389a471",
+      "sha256": "ed5b6eb14f33f324bb238ab8cdeb41a5489dea4c34a9a78d2362391a551912be",
       "skill_file": "vendors/cybersecurity/skills/detecting-typosquatting-packages/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/detecting-typosquatting-packages",
       "vendor_name": "detecting-typosquatting-packages"
@@ -7479,7 +7479,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "2d76c48905f84d5e26e5e009afcbd49a5b48a3337a391f382d1467c2e4e5aef0",
+      "sha256": "b3d46c0184c4a0993b1c31f0e1d91e368d14a47063dd0083e9e51f87d4cfe0ed",
       "skill_file": "vendors/cybersecurity/skills/detecting-typosquatting-packages-in-npm-pypi/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/detecting-typosquatting-packages-in-npm-pypi",
       "vendor_name": "detecting-typosquatting-packages-in-npm-pypi"
@@ -7513,7 +7513,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "aceea460d1570ec0cabbe8561f1674e7bd9e4db83157ba2faac116e0b6726c3c",
+      "sha256": "350e27a43f2b1a33e2b425389f56901330fd52ac4a164a0555eb68ebc483ccd0",
       "skill_file": "vendors/cybersecurity/skills/generating-and-analyzing-sboms/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/generating-and-analyzing-sboms",
       "vendor_name": "generating-and-analyzing-sboms"
@@ -7549,7 +7549,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "81793964bc9fad040b7fe89a512fbc6667d22d93834d6787b9d76d894330b4ed",
+      "sha256": "7a1c78a8d8e6945d84b98c583295b6f2a584d4649b7f9579f8c9cb82393cf221",
       "skill_file": "vendors/cybersecurity/skills/implementing-aes-encryption-for-data-at-rest/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-aes-encryption-for-data-at-rest",
       "vendor_name": "implementing-aes-encryption-for-data-at-rest"
@@ -7590,7 +7590,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "2e73bb955926ba494443089360211b537b3edf9bb9328564987d35d65b437e64",
+      "sha256": "adc4b3a6192d6843c493bcebc263e8b45117294c621a22e57edf46c0265c6e8a",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-abuse-detection-with-rate-limiting/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-abuse-detection-with-rate-limiting",
       "vendor_name": "implementing-api-abuse-detection-with-rate-limiting"
@@ -7629,7 +7629,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "b7cec72149a11954b1111c691e774492f82911762e8668d1d627e16bd082a7bf",
+      "sha256": "dcb91cedb5c91ded28f0a40e0b2f0c501983565aa032ae95dcfd4725e61dce77",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-gateway-security-controls/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-gateway-security-controls",
       "vendor_name": "implementing-api-gateway-security-controls"
@@ -7677,7 +7677,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "1bf84c26f6471acebe0fed55a3fc7abeb946bfd00ce10f5ac2470bf0f5601537",
+      "sha256": "41e0fa83a302fa8301b08d9bf97920568dd2409b9c02a51ff26347f04d6c89fd",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-key-security-controls/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-key-security-controls",
       "vendor_name": "implementing-api-key-security-controls"
@@ -7716,7 +7716,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "e0a8cb1656a6109a6609e289315fe6f8cfb510da0dfe12385ecfd48d1436b067",
+      "sha256": "65d0e38512beed2c8f6ada2a1f77b72e9059a4dd21a4e31acb17a0208f1208c6",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-rate-limiting-and-throttling/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-rate-limiting-and-throttling",
       "vendor_name": "implementing-api-rate-limiting-and-throttling"
@@ -7757,7 +7757,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "aec2845d6b2b5e98e74e965aff5b6be88c2af5dfe5a5b90f4ad0bf3dbcc03408",
+      "sha256": "83a215f9ef493d0acf0e24aa93eec0f643e6511d0b6ec7099e61afbab2a7e2de",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-schema-validation-security/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-schema-validation-security",
       "vendor_name": "implementing-api-schema-validation-security"
@@ -7796,7 +7796,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "333691db2904820fe975548f1cf5ae6772ea9d49c88732487b76bb8c8d5f0820",
+      "sha256": "7e8aec1ac66ed3fc79a535599b7cd567906c97dd317433446344d941e4496fbb",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-security-posture-management/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-security-posture-management",
       "vendor_name": "implementing-api-security-posture-management"
@@ -7836,7 +7836,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c587bd347897c48559dfb0029ac38b13b3cdf8542207fa5923f99af529e324fc",
+      "sha256": "410042b981a5a75559b5c9b5003105e1a16bc71d4f8e57c549cca8f25c95adfd",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-security-testing-with-42crunch/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-security-testing-with-42crunch",
       "vendor_name": "implementing-api-security-testing-with-42crunch"
@@ -7878,7 +7878,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "dc48221473969e1aafca79f5490b6a4cf8ee8765078591fafb31c256f8aa6880",
+      "sha256": "f0f783cef54c154767e62bcf62904a716612786e9c6f3fcbd11406bea131c93d",
       "skill_file": "vendors/cybersecurity/skills/implementing-api-threat-protection-with-apigee/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-api-threat-protection-with-apigee",
       "vendor_name": "implementing-api-threat-protection-with-apigee"
@@ -7918,7 +7918,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "6eb25a72c34a39a0ebec95634b219f6b49e972ab927c811084172da955552c7a",
+      "sha256": "37d6bcd5314eeda63fc292b8bc1ed6772ca37ecfae9821866aed150e922c67dd",
       "skill_file": "vendors/cybersecurity/skills/implementing-aqua-security-for-container-scanning/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-aqua-security-for-container-scanning",
       "vendor_name": "implementing-aqua-security-for-container-scanning"
@@ -7957,7 +7957,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "dd930248adabd6a146860b0f3cca2770f0c1e5669edbb550bb6766e27ac91011",
+      "sha256": "5cd583337ffe6f6b5234405da864d188ff940598d0725b060d5d5a823c2fcce7",
       "skill_file": "vendors/cybersecurity/skills/implementing-aws-iam-permission-boundaries/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-aws-iam-permission-boundaries",
       "vendor_name": "implementing-aws-iam-permission-boundaries"
@@ -8030,7 +8030,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "be3e60aaa77497b56b2c495e0b6f0e72b480006374ad657921d6e1f381bf13a0",
+      "sha256": "a894530bbc485998b74e502b25318d334091e7cb943a5362a9de0955e4c09735",
       "skill_file": "vendors/cybersecurity/skills/implementing-azure-ad-privileged-identity-management/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-azure-ad-privileged-identity-management",
       "vendor_name": "implementing-azure-ad-privileged-identity-management"
@@ -8069,7 +8069,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "55c4eba15a41046caa71a4eb0d43d4e1e207102b4c2331dcaf1efdd0fc3362c6",
+      "sha256": "ce1d6eb5837e351f6b86540d7520b84ae0962bf853ec772ff55c7d81943dda31",
       "skill_file": "vendors/cybersecurity/skills/implementing-code-signing-for-artifacts/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-code-signing-for-artifacts",
       "vendor_name": "implementing-code-signing-for-artifacts"
@@ -8108,7 +8108,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c4801cf22e84d6b5e27f182af17cd4ae16bfd0c063414dc38dc1a2b1b753ace1",
+      "sha256": "38494d7b09602e844354d0839129f611ac0a600ebbc4b774dd5685a852272013",
       "skill_file": "vendors/cybersecurity/skills/implementing-conditional-access-policies-azure-ad/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-conditional-access-policies-azure-ad",
       "vendor_name": "implementing-conditional-access-policies-azure-ad"
@@ -8147,7 +8147,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "5456fdb2fcd6ccb8ce6a7115eaa6ca5a86b0d837bc52ee1fc1ac094312219cb8",
+      "sha256": "b14aa04749163048acf27cc0e330f2173be7412fe77ec51c0b2c9aab42dd8512",
       "skill_file": "vendors/cybersecurity/skills/implementing-data-loss-prevention-with-microsoft-purview/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-data-loss-prevention-with-microsoft-purview",
       "vendor_name": "implementing-data-loss-prevention-with-microsoft-purview"
@@ -8226,7 +8226,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "9e686d64a5e4fe753740b10fa776dee9df9655bf9f40eb4643fbf2ae9d827bc2",
+      "sha256": "7146530466cb9b9d2d0ae1bbce334767256e46a2d895e7cb00833304bc4c397f",
       "skill_file": "vendors/cybersecurity/skills/implementing-delinea-secret-server-for-pam/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-delinea-secret-server-for-pam",
       "vendor_name": "implementing-delinea-secret-server-for-pam"
@@ -8269,7 +8269,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "9b7697b729366d36202a87c9e4a984342da5366ec6864b4939017f46221b03b5",
+      "sha256": "33dff9b664e4e1dfbbeca11f9966dd3f67a83174d04b680577011ef1d48e20ec",
       "skill_file": "vendors/cybersecurity/skills/implementing-devsecops-security-scanning/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-devsecops-security-scanning",
       "vendor_name": "implementing-devsecops-security-scanning"
@@ -8304,7 +8304,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "a442063f17e54c978d9fc8da6f1a6f4368d1a74e683e3931335e4d61d284fa00",
+      "sha256": "32475fb6bf39692a605fb120a2500c84771386077c9ff26736fd8097e4054417",
       "skill_file": "vendors/cybersecurity/skills/implementing-digital-signatures-with-ed25519/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-digital-signatures-with-ed25519",
       "vendor_name": "implementing-digital-signatures-with-ed25519"
@@ -8340,7 +8340,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c999aa55ac684f385120ceb29036d20e12f90bf6d5ff63248537b59b51b06ba7",
+      "sha256": "b3c497542f0c8910d7e1b7af5d22397bead328c6fdee7df477fa9bef74f18f3d",
       "skill_file": "vendors/cybersecurity/skills/implementing-end-to-end-encryption-for-messaging/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-end-to-end-encryption-for-messaging",
       "vendor_name": "implementing-end-to-end-encryption-for-messaging"
@@ -8378,7 +8378,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "064be40d3c7db34b4ade6aa7ee8f89ef98798480fd826384700cb03a5efc88a3",
+      "sha256": "40eb866b281428f5eebb100847ee7a451b34951a73a230a6163e9c41f879d535",
       "skill_file": "vendors/cybersecurity/skills/implementing-envelope-encryption-with-aws-kms/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-envelope-encryption-with-aws-kms",
       "vendor_name": "implementing-envelope-encryption-with-aws-kms"
@@ -8415,7 +8415,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "0833565143322124f05697d63a3bbdeaeb7c55c1612d30f0cbbdff4a004ac0df",
+      "sha256": "df6727d144a9d926647a39cf2b860915f129ff43566383e77042e5715885e950",
       "skill_file": "vendors/cybersecurity/skills/implementing-gdpr-data-subject-access-request/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-gdpr-data-subject-access-request",
       "vendor_name": "implementing-gdpr-data-subject-access-request"
@@ -8453,7 +8453,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "abd51b02d47c21c4f9273388b0be5df7c3ab4f65f97585557b02fafebc40124e",
+      "sha256": "eb11fb928c5b7cf9d033bc6bd625556730ca7c7cf213e35ee111b10ab36f964e",
       "skill_file": "vendors/cybersecurity/skills/implementing-github-advanced-security-for-code-scanning/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-github-advanced-security-for-code-scanning",
       "vendor_name": "implementing-github-advanced-security-for-code-scanning"
@@ -8533,7 +8533,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "dc19bbc8b2c33d160865ffc1520cdeb48adb1c123d543c05d89f7ffa0f9a2712",
+      "sha256": "53bf4f22db853da926ec67b786ff4008c1dcfa9a1b3795a07a927c3dac5c91f9",
       "skill_file": "vendors/cybersecurity/skills/implementing-google-workspace-admin-security/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-google-workspace-admin-security",
       "vendor_name": "implementing-google-workspace-admin-security"
@@ -8610,7 +8610,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "82897a501272694a81f58ee16148f65220a49673eefbdedf89af6ca81ea7f0da",
+      "sha256": "b6bb959ad4f778c567b544fe7680b62dfd5ca42b747b039d081e17d7da7b013c",
       "skill_file": "vendors/cybersecurity/skills/implementing-google-workspace-sso-configuration/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-google-workspace-sso-configuration",
       "vendor_name": "implementing-google-workspace-sso-configuration"
@@ -8696,7 +8696,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "f03f1f92b37f2be2379b9d0ce9630f14222cae645b8d875f6f80e2a4078dd535",
+      "sha256": "d859f0c541a19e967f6d4b9e062f70ea4c82466ee755fc576e8c21aa9bd2edc3",
       "skill_file": "vendors/cybersecurity/skills/implementing-hashicorp-vault-dynamic-secrets/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-hashicorp-vault-dynamic-secrets",
       "vendor_name": "implementing-hashicorp-vault-dynamic-secrets"
@@ -8775,7 +8775,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "4f6e421039b016c9b094110adeeb43f7b257f36647b40196559a22c3ed55618d",
+      "sha256": "7f4889a7df09a8e39eda14d76cbbd3af40439d255994b0989899bb8b4428ca2a",
       "skill_file": "vendors/cybersecurity/skills/implementing-identity-governance-with-sailpoint/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-identity-governance-with-sailpoint",
       "vendor_name": "implementing-identity-governance-with-sailpoint"
@@ -8815,7 +8815,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "08a2228dea28bd5ef661ba13e0b2d647b107ed565cdebe06e7375774cf420ddc",
+      "sha256": "1cbf4e495942e96150f36ae0cdc6a4d5f75c1c0ac500513c6f1ad4b80e872799",
       "skill_file": "vendors/cybersecurity/skills/implementing-infrastructure-as-code-security-scanning/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-infrastructure-as-code-security-scanning",
       "vendor_name": "implementing-infrastructure-as-code-security-scanning"
@@ -8854,7 +8854,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "2400de0fe7d218a6ca2d32deefa7920053b60f7d4bee19b40d09ec2c1a16fe82",
+      "sha256": "f03f027b03c2f0eee4617ecc9be497d396afb67dbd3e553913c072f2b23ac85f",
       "skill_file": "vendors/cybersecurity/skills/implementing-just-in-time-access-provisioning/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-just-in-time-access-provisioning",
       "vendor_name": "implementing-just-in-time-access-provisioning"
@@ -8889,7 +8889,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "92964f48e4c26b50878bd5f50d662ffe6240f88e222e9eff35c99333379864e0",
+      "sha256": "2a21f1cb82ab50da3e2ddceb37ef6ae2c999243b3d78ff9415fd03980e303231",
       "skill_file": "vendors/cybersecurity/skills/implementing-jwt-signing-and-verification/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-jwt-signing-and-verification",
       "vendor_name": "implementing-jwt-signing-and-verification"
@@ -8947,7 +8947,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "755d66fcc3f79eba845a4b3648a6e9da166ba4701c0c8d503868ae2ead7ff823",
+      "sha256": "1cf02a88ea563459705e0f6a48a019ca5ae65711b3b736985b9004083d97a209",
       "skill_file": "vendors/cybersecurity/skills/implementing-llm-guardrails-for-security/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-llm-guardrails-for-security",
       "vendor_name": "implementing-llm-guardrails-for-security"
@@ -9027,7 +9027,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "cc4482f5e36114b5236c3d063389b3cb5fae22f1f398af5aa39913c3a5d47a37",
+      "sha256": "da283609029de9bb10b33092e346419fbbbfcc089709241238553b9dd82b94b4",
       "skill_file": "vendors/cybersecurity/skills/implementing-pam-for-database-access/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-pam-for-database-access",
       "vendor_name": "implementing-pam-for-database-access"
@@ -9110,7 +9110,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "1ba9c7a75990461bd9528fdfe1d9973f28ca9ad92eadbf7795b816250567231f",
+      "sha256": "66bb68a13a84fe19f1c12431ec922c52fd7c19882b6589745c85db84dfcb82c5",
       "skill_file": "vendors/cybersecurity/skills/implementing-passwordless-auth-with-microsoft-entra/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-passwordless-auth-with-microsoft-entra",
       "vendor_name": "implementing-passwordless-auth-with-microsoft-entra"
@@ -9160,7 +9160,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "ce03636cd966fce8876cb0dedc21f7ba7628f2e52fa1c494208e259815f5ce9d",
+      "sha256": "488b72aaa73beb7a08f2722039305d23bcd33fc637a93107f55b28d6d004076a",
       "skill_file": "vendors/cybersecurity/skills/implementing-passwordless-authentication-with-fido2/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-passwordless-authentication-with-fido2",
       "vendor_name": "implementing-passwordless-authentication-with-fido2"
@@ -9205,7 +9205,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "4ece24e67be255f2015948ece932a26a688bb27dc0dfd06b53ebe115bef02b52",
+      "sha256": "f2fced8c007915ffac26e8ee40993991522b754c3d1f7df6079b3c1ffb85c971",
       "skill_file": "vendors/cybersecurity/skills/implementing-policy-as-code-with-open-policy-agent/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-policy-as-code-with-open-policy-agent",
       "vendor_name": "implementing-policy-as-code-with-open-policy-agent"
@@ -9284,7 +9284,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "ca6c9c1e0f99561ae83478e7962b0ad0801cda393862f4ea1ca9296b1f96188a",
+      "sha256": "c3a66ba51fc0c491f98c4f54dc8dc9883dba7fdb5b98d8775e85e3c5193e48c1",
       "skill_file": "vendors/cybersecurity/skills/implementing-privileged-access-management-with-cyberark/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-privileged-access-management-with-cyberark",
       "vendor_name": "implementing-privileged-access-management-with-cyberark"
@@ -9323,7 +9323,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c8f3372ce4d9dbe90a2387c7610cc0e6325e4f1899e7496321ee8fcc7ff81a45",
+      "sha256": "54d4f973490c9c8b1528fc405aee4324251051ee7c7847d88a1d75726ae374ff",
       "skill_file": "vendors/cybersecurity/skills/implementing-privileged-session-monitoring/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-privileged-session-monitoring",
       "vendor_name": "implementing-privileged-session-monitoring"
@@ -9359,7 +9359,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "a616471d60780fd40dd3c4bc12ce3fc6c5ad503309a1d77d3ec02bffb09397cc",
+      "sha256": "eb4a37b4d46fe5409fde7de535f28697df38fc8758cd082a7d7b76860b2f2932",
       "skill_file": "vendors/cybersecurity/skills/implementing-rsa-key-pair-management/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-rsa-key-pair-management",
       "vendor_name": "implementing-rsa-key-pair-management"
@@ -9404,7 +9404,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "476e5d739532aaa4c9ec07078b99a9a9541bc9d3748b69edfefbdd5abeb03ab1",
+      "sha256": "54161a1a0f868a2535f344c0b46be7260c66034cb16673ed95d224a97800701b",
       "skill_file": "vendors/cybersecurity/skills/implementing-runtime-application-self-protection/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-runtime-application-self-protection",
       "vendor_name": "implementing-runtime-application-self-protection"
@@ -9484,7 +9484,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "0ce8907ea435ed5ac59e2e6ebb7cd65162e37446c5a01b920ac19fbefa5f149b",
+      "sha256": "04cd9c49c15846547f288b0bcd4b2ba4b310321ded5836282b6b596529fd443a",
       "skill_file": "vendors/cybersecurity/skills/implementing-saml-sso-with-okta/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-saml-sso-with-okta",
       "vendor_name": "implementing-saml-sso-with-okta"
@@ -9563,7 +9563,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "93d0c964acae03a39f1a4cc8d9e199d62374c0f2b1deeb5ff8014942b3fac6cd",
+      "sha256": "f4bbcc458409186a0e88d833a5be93c2775482c4f7541af7abd4a7fea9dadce4",
       "skill_file": "vendors/cybersecurity/skills/implementing-scim-provisioning-with-okta/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-scim-provisioning-with-okta",
       "vendor_name": "implementing-scim-provisioning-with-okta"
@@ -9602,7 +9602,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "1022965b9ea7061f6393d6e8e125d7216bf991b4edc0d91fc651215820a33dbe",
+      "sha256": "b4edc041a407d5b88dc54de6085088c797cd97a63d82de605c39436346ff4cc4",
       "skill_file": "vendors/cybersecurity/skills/implementing-secret-scanning-with-gitleaks/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-secret-scanning-with-gitleaks",
       "vendor_name": "implementing-secret-scanning-with-gitleaks"
@@ -9637,7 +9637,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "f1996b87874eead594f97725e609d83099826adaa6f4cb28c7b01dea590667ca",
+      "sha256": "d27c80a229695c253995fda9af2d12fac8ed04c2c4be6b2aea2ae888bd172f07",
       "skill_file": "vendors/cybersecurity/skills/implementing-secrets-scanning-in-ci-cd/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-secrets-scanning-in-ci-cd",
       "vendor_name": "implementing-secrets-scanning-in-ci-cd"
@@ -9674,7 +9674,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "08f44535303ff703afc5586db8c073cad3d72c991b58fce0a0b93cee8eb89f83",
+      "sha256": "1f742a919e99f19d23b36aa66848e5205a4922873be5bae3e45fed84be75d411",
       "skill_file": "vendors/cybersecurity/skills/implementing-semgrep-for-custom-sast-rules/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-semgrep-for-custom-sast-rules",
       "vendor_name": "implementing-semgrep-for-custom-sast-rules"
@@ -9756,7 +9756,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "e0c3db45ec4883a5444599966e6d842c5d6eda903259831aaf50c68738eb3732",
+      "sha256": "4f1db3501f4427d3e78bd6c07e95dcbd70b8af1fde4d8e77615106b9bea76418",
       "skill_file": "vendors/cybersecurity/skills/implementing-sigstore-for-software-signing/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-sigstore-for-software-signing",
       "vendor_name": "implementing-sigstore-for-software-signing"
@@ -9805,7 +9805,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "5e37c96bb17fc3b8686194ce04c6026123d68d09b10e56142aec01f86285e881",
+      "sha256": "db2b1a83aa5a3944c48863cc84194c574900d32ee165fc78a8d7ec5b82b1bfe9",
       "skill_file": "vendors/cybersecurity/skills/implementing-web-application-logging-with-modsecurity/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-web-application-logging-with-modsecurity",
       "vendor_name": "implementing-web-application-logging-with-modsecurity"
@@ -9840,7 +9840,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "bcdf66b53b674839d0690351e961d0ab0dee3100e256a1aa7b70e0175fec11f8",
+      "sha256": "0173432187bfcea2a239a240780d8f4c78ae67a654370d2afef94168197b2c74",
       "skill_file": "vendors/cybersecurity/skills/implementing-zero-knowledge-proof-for-authentication/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-zero-knowledge-proof-for-authentication",
       "vendor_name": "implementing-zero-knowledge-proof-for-authentication"
@@ -9879,7 +9879,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "b489bf3bf127e91ea09467d775172ebae95db543b9ead006329724cdb852ff75",
+      "sha256": "e6a7d47c4bc27730c97e780bb5fa6f50a28b4ca3446a622a6f9387ade9bdf81a",
       "skill_file": "vendors/cybersecurity/skills/implementing-zero-standing-privilege-with-cyberark/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/implementing-zero-standing-privilege-with-cyberark",
       "vendor_name": "implementing-zero-standing-privilege-with-cyberark"
@@ -9916,7 +9916,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "56a926684876802e01fa6f3a9457c9b974bc53de526e75527d525cd968b46d85",
+      "sha256": "60d7a1b8714d01ab8c1a93e46447b8ae17265f59fb14f5f19b56153c91154961",
       "skill_file": "vendors/cybersecurity/skills/integrating-dast-with-owasp-zap-in-pipeline/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/integrating-dast-with-owasp-zap-in-pipeline",
       "vendor_name": "integrating-dast-with-owasp-zap-in-pipeline"
@@ -9953,7 +9953,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "79fc33065ff390acb056b689c9ce08220c8952dd39503e56048e3cde6d02e6f3",
+      "sha256": "5767c9ddf1fe9b5cdb7739ea88fc745807ec42afe53f05321236a3f331f9ec4b",
       "skill_file": "vendors/cybersecurity/skills/integrating-sast-into-github-actions-pipeline/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/integrating-sast-into-github-actions-pipeline",
       "vendor_name": "integrating-sast-into-github-actions-pipeline"
@@ -9987,7 +9987,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "97950f7dd5d0eb04c8ac9f8c75e683c4e40b085d57235c566052ac360a3160f2",
+      "sha256": "854586d906963dc1afbbdb9ed3653dc5266913941cf25e21f469e0c44ff20b5e",
       "skill_file": "vendors/cybersecurity/skills/migrating-to-post-quantum-cryptography/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/migrating-to-post-quantum-cryptography",
       "vendor_name": "migrating-to-post-quantum-cryptography"
@@ -10067,7 +10067,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c9058a347f6bdb87e01f6a498e542cefcefb0d8cc094719761143126ade45e7c",
+      "sha256": "bb362438e6b2281fb5ae9df140ccae413360548b3fe287f47f1a6b124a3dc3d7",
       "skill_file": "vendors/cybersecurity/skills/performing-access-recertification-with-saviynt/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-access-recertification-with-saviynt",
       "vendor_name": "performing-access-recertification-with-saviynt"
@@ -10106,7 +10106,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "3e8a03f4741dabb59eabf504809961846ede2f2501aee0989c42f703d695292d",
+      "sha256": "6154874c4d62033215054d307bd2e3c5949383e35e7cc2fa586418c640b2bb2f",
       "skill_file": "vendors/cybersecurity/skills/performing-access-review-and-certification/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-access-review-and-certification",
       "vendor_name": "performing-access-review-and-certification"
@@ -10145,7 +10145,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "5f24d1f9a747d065c7d2740d7bf76ea8a90c798613e53d50d59a038d20d3d2aa",
+      "sha256": "ab3c066754680dbb08416d9edbc5746887716861aba7fa9ab402af3c4de8c827",
       "skill_file": "vendors/cybersecurity/skills/performing-api-inventory-and-discovery/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-api-inventory-and-discovery",
       "vendor_name": "performing-api-inventory-and-discovery"
@@ -10183,7 +10183,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "7d1133a9dcebf3a8039bf829b7a3ac12c829f79268d6b00d441530d15aca234e",
+      "sha256": "f35c3a67786f12d82a7a1acefd58c94e4c5818ca9c535029a81b63fc2138476e",
       "skill_file": "vendors/cybersecurity/skills/performing-api-security-testing-with-postman/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-api-security-testing-with-postman",
       "vendor_name": "performing-api-security-testing-with-postman"
@@ -10222,7 +10222,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "1fff9904104a5e1565f8a2864d80cf67968633302bd574aac08a36a7d7c07b11",
+      "sha256": "4bd116ec9bf56b56ce10ec69ab9da6eb12c9f0db36bdc14402e5eb96f24da97d",
       "skill_file": "vendors/cybersecurity/skills/performing-container-image-hardening/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-container-image-hardening",
       "vendor_name": "performing-container-image-hardening"
@@ -10291,7 +10291,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "b66726c933b03943228f340562cab91b829713bb7829a59351540842e2098081",
+      "sha256": "c39ca781b08e121cb8f439090078bacff3cfb629cbe524c40e2de203aa4f86f9",
       "skill_file": "vendors/cybersecurity/skills/performing-cryptographic-audit-of-application/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-cryptographic-audit-of-application",
       "vendor_name": "performing-cryptographic-audit-of-application"
@@ -10370,7 +10370,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "539398a394c7e91f567d0b68cd8c01b8487f26197a8d9e7650a84b35f6e76ed0",
+      "sha256": "ea3f8a549e8009b0604c02b08125867df17a12eafead6a0be20f69ca4232b25e",
       "skill_file": "vendors/cybersecurity/skills/performing-entitlement-review-with-sailpoint-iiq/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-entitlement-review-with-sailpoint-iiq",
       "vendor_name": "performing-entitlement-review-with-sailpoint-iiq"
@@ -10409,7 +10409,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "32dfbca7382b3e221504df7c42ee10a41e3ef82e4a4d23e57517945cda4544b7",
+      "sha256": "44700dec87401270795d075676f15b5e6438704d7944cd5345a1d435efd827a2",
       "skill_file": "vendors/cybersecurity/skills/performing-graphql-security-assessment/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-graphql-security-assessment",
       "vendor_name": "performing-graphql-security-assessment"
@@ -10458,7 +10458,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "77bc0b3f0ed59c64b46f972a5010f83f1ba1680401e5a39162c0b6b7cc0b2928",
+      "sha256": "50e0dfe37f023202437d91e876d01728d1661a1fc78cf2dc0946e1060cf02f6d",
       "skill_file": "vendors/cybersecurity/skills/performing-hardware-security-module-integration/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-hardware-security-module-integration",
       "vendor_name": "performing-hardware-security-module-integration"
@@ -10542,7 +10542,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "bdabf194719ed27f6b72a564fa2ac3cfec0d7ae0f6d2a268c0f8c0db10c3976f",
+      "sha256": "e0d6858d093e3a8d12377e0f9db7314405b2b95f95b4256b522acc1065ed3ad2",
       "skill_file": "vendors/cybersecurity/skills/performing-oauth-scope-minimization-review/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-oauth-scope-minimization-review",
       "vendor_name": "performing-oauth-scope-minimization-review"
@@ -10582,7 +10582,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "179302385001d0b6511df8adb15930dcc2446a98016511fbd78134f0c113d8f2",
+      "sha256": "5306f1b76b9a9af4df2cfce66f9d50ec4cc7d5d16b71d2f86ef49862b8aa7845",
       "skill_file": "vendors/cybersecurity/skills/performing-post-quantum-cryptography-migration/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-post-quantum-cryptography-migration",
       "vendor_name": "performing-post-quantum-cryptography-migration"
@@ -10620,7 +10620,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "3a8ab8aaa7168fea5e40d1667b177fbe6c6d9c4889414390f779555cb0c2e2ea",
+      "sha256": "b906c778bad53bc8ca265385e195018c25686371b12f7c1d3a02aa5b0421befa",
       "skill_file": "vendors/cybersecurity/skills/performing-privacy-impact-assessment/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-privacy-impact-assessment",
       "vendor_name": "performing-privacy-impact-assessment"
@@ -10659,7 +10659,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "d5e6f74be9ad81e127f66a7e3438ba98b9a5ac193babcd08e9e1461a3655c555",
+      "sha256": "2192a16cd840047015268883ad90f1f5e8aac72e8aaa4fd1c056a07a3768ff52",
       "skill_file": "vendors/cybersecurity/skills/performing-privileged-account-access-review/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-privileged-account-access-review",
       "vendor_name": "performing-privileged-account-access-review"
@@ -10698,7 +10698,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "c1609892303cccddb3f89dad0a894b1ed3450e00ee54af6bdf374c725fbf0794",
+      "sha256": "d789971532502f74e61b4b7b7384de14c524e95cfaaf81013f61ef90a7007180",
       "skill_file": "vendors/cybersecurity/skills/performing-privileged-account-discovery/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-privileged-account-discovery",
       "vendor_name": "performing-privileged-account-discovery"
@@ -10735,7 +10735,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "3809b3f59bcba443b776495ac6cea9743647d122971640e67f7eee1dd5ed1dd3",
+      "sha256": "dfd1a2b52caf065f5e901bc58cf843cadf7da76990e9f7ed466661863b3120c9",
       "skill_file": "vendors/cybersecurity/skills/performing-sca-dependency-scanning-with-snyk/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-sca-dependency-scanning-with-snyk",
       "vendor_name": "performing-sca-dependency-scanning-with-snyk"
@@ -10774,7 +10774,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "5cdc17a647f5fdbfbc291122c52b3be10f006519a8521dda170a681a9dfa27a5",
+      "sha256": "7467c71ba1d46bb53d41bdc3d46965705550c2d2c2a35d3a94d27c2169f560e8",
       "skill_file": "vendors/cybersecurity/skills/performing-security-headers-audit/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-security-headers-audit",
       "vendor_name": "performing-security-headers-audit"
@@ -10813,7 +10813,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "86c21fc1e386f3b8f757532162fd177b8dc0bfdf7674c13b2e280af233a730f2",
+      "sha256": "54f2bf60cfcbcb6fd1c880b582c481ea2ed8cf6eebea3153e1235baf087e1de7",
       "skill_file": "vendors/cybersecurity/skills/performing-service-account-audit/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-service-account-audit",
       "vendor_name": "performing-service-account-audit"
@@ -10855,7 +10855,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "903b5a8e64fd1b44366daca8bc984a33b937c744058f86ce0f8ebedda75ea294",
+      "sha256": "b3b1dccbb68a506274a50105070f2a93c73ba559498f7f2ed44c52c3e59a8add",
       "skill_file": "vendors/cybersecurity/skills/performing-soap-web-service-security-testing/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-soap-web-service-security-testing",
       "vendor_name": "performing-soap-web-service-security-testing"
@@ -10892,7 +10892,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "6156e9f698cfb9c5ee90c789e4ecfa60d6b2d926731e4f66c00a61cc772a4ab2",
+      "sha256": "6663b5076eff9b30f6a00f8a1bea6daed4104722525ced5b01fbdabd18280ab8",
       "skill_file": "vendors/cybersecurity/skills/performing-ssl-certificate-lifecycle-management/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-ssl-certificate-lifecycle-management",
       "vendor_name": "performing-ssl-certificate-lifecycle-management"
@@ -10941,7 +10941,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "66b6cb28943538185273b501fbb14f199b2b9dddc45f740bf4102cfcba3c1a56",
+      "sha256": "f343a1c66955144e9c38a0839af1a0d51134ea33383933568444e94adb062737",
       "skill_file": "vendors/cybersecurity/skills/performing-threat-modeling-with-owasp-threat-dragon/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/performing-threat-modeling-with-owasp-threat-dragon",
       "vendor_name": "performing-threat-modeling-with-owasp-threat-dragon"
@@ -10980,7 +10980,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "9a631afa167d7164ba75310b4a0411f454c54e7e79d142662a85ffa4c4154ae9",
+      "sha256": "77d25536c0325643925024b3213cb6b0c4b91a08665b91a15066bab3a51a47ec",
       "skill_file": "vendors/cybersecurity/skills/scanning-containers-with-trivy-in-cicd/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/scanning-containers-with-trivy-in-cicd",
       "vendor_name": "scanning-containers-with-trivy-in-cicd"
@@ -11014,7 +11014,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "beb3a2f475519d3aa0ddbdcbc7919f4b58599d7d92490904353d03d945596829",
+      "sha256": "687f1f393c389bb196f6870c62afbef4f2b98321432079107597d9414f5f94a6",
       "skill_file": "vendors/cybersecurity/skills/scanning-iac-and-images-with-trivy/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/scanning-iac-and-images-with-trivy",
       "vendor_name": "scanning-iac-and-images-with-trivy"
@@ -11048,7 +11048,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "4723187a55abce9b89a39a2e3c043f1bb741f116ab25ea22f9358a17f2ed23d8",
+      "sha256": "92989526f69a2ce9bab565c322686a3126750a183580db70857149daa66b5bc0",
       "skill_file": "vendors/cybersecurity/skills/securing-agentic-ai-tool-invocation/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/securing-agentic-ai-tool-invocation",
       "vendor_name": "securing-agentic-ai-tool-invocation"
@@ -11087,7 +11087,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "0eb815071164627deb85661ba0575c8309c2c6057cd3959d501de4cc2422532c",
+      "sha256": "2b97435cc35f746c3dfe8ce527d2b74602906c8ee61e098aeb7547efc9c5a210",
       "skill_file": "vendors/cybersecurity/skills/securing-github-actions-workflows/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/securing-github-actions-workflows",
       "vendor_name": "securing-github-actions-workflows"
@@ -11126,7 +11126,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "d26f298cd78dbcde796229887b2f21cfa609c131dc21890528def705839f4137",
+      "sha256": "465c92942f5c7f7e7b50e022ee598d5e52ce31c1d8bc3c6d281ae1519fa54d54",
       "skill_file": "vendors/cybersecurity/skills/testing-api-authentication-weaknesses/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-api-authentication-weaknesses",
       "vendor_name": "testing-api-authentication-weaknesses"
@@ -11165,7 +11165,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "d031faf628938aaaaa9d770ce2d5bdad794ddd5a091e6458d6afe72f353bfd52",
+      "sha256": "17e4baa94874d2da37fbea73aaa17a7a92908c32ed1ac75af19df4a995964a73",
       "skill_file": "vendors/cybersecurity/skills/testing-api-for-broken-object-level-authorization/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-api-for-broken-object-level-authorization",
       "vendor_name": "testing-api-for-broken-object-level-authorization"
@@ -11203,7 +11203,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "7c393ec41c006fe03f7cb0eb10e4bf960c8f06d3f8963876057099341b652ef7",
+      "sha256": "1368714ad95c0895e2db7509329954ee91e2b1227ff5229b81bfd5491ac807e2",
       "skill_file": "vendors/cybersecurity/skills/testing-api-for-mass-assignment-vulnerability/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-api-for-mass-assignment-vulnerability",
       "vendor_name": "testing-api-for-mass-assignment-vulnerability"
@@ -11242,7 +11242,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "45dea0abcd176f48a78ac85fdbc7db28ea782544bd0524b5e17e9723d5b1c038",
+      "sha256": "fdffd976a0587c262bd60b212a93928597004173e68c87280de3c96850ee4f57",
       "skill_file": "vendors/cybersecurity/skills/testing-api-security-with-owasp-top-10/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-api-security-with-owasp-top-10",
       "vendor_name": "testing-api-security-with-owasp-top-10"
@@ -11281,7 +11281,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "54fde749325b8551106f6571f549b033a6d7f7d0e681bcec4778bead926cb870",
+      "sha256": "f00f0bdea8ad16da64cf736c6925458bc1c32d84aa8bc8cd0ad69572fddff8bd",
       "skill_file": "vendors/cybersecurity/skills/testing-cors-misconfiguration/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-cors-misconfiguration",
       "vendor_name": "testing-cors-misconfiguration"
@@ -11320,7 +11320,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "828c6d9cce3d4da1df072d999930913a58a83cae6a2d892244d50ae86b676ab2",
+      "sha256": "486ebc33f1f5290577bf788f8daf1647822390cf39f32f79befc2e9a7f1a2140",
       "skill_file": "vendors/cybersecurity/skills/testing-for-broken-access-control/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-broken-access-control",
       "vendor_name": "testing-for-broken-access-control"
@@ -11359,7 +11359,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "da9818abff824e04416883b414af39df65499ddc2ea09f1d5bdcb8093f351ccb",
+      "sha256": "c4fec837c8be4e0a4937d9d29efe09ab54c48bb0c03241be5766ccfe77f406f3",
       "skill_file": "vendors/cybersecurity/skills/testing-for-business-logic-vulnerabilities/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-business-logic-vulnerabilities",
       "vendor_name": "testing-for-business-logic-vulnerabilities"
@@ -11399,7 +11399,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "8675b2e4c53b6ab6863dd788afbcd3f5c32da826ecd69665079cdffcac9a8dd1",
+      "sha256": "9b5508aad815d23279dc0cca724d0506798f2b332cda415d44133a384b3133be",
       "skill_file": "vendors/cybersecurity/skills/testing-for-email-header-injection/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-email-header-injection",
       "vendor_name": "testing-for-email-header-injection"
@@ -11439,7 +11439,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "efe184bc45db6cb3d80a0e96db3aad43cc8c9e517a517d4eccbb556df3309112",
+      "sha256": "b576bdd3caf3fd11cb56c0b305b34eef992ffd2414be57ead6788189cb3facd6",
       "skill_file": "vendors/cybersecurity/skills/testing-for-host-header-injection/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-host-header-injection",
       "vendor_name": "testing-for-host-header-injection"
@@ -11479,7 +11479,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "08619a75a7dc030790cef882d054f52e890b2177d5f61a04654270f0577235f9",
+      "sha256": "e942035c3433cbb9161a6b288bacd3bcee090068d108cb6fd8e78240399be3f4",
       "skill_file": "vendors/cybersecurity/skills/testing-for-json-web-token-vulnerabilities/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-json-web-token-vulnerabilities",
       "vendor_name": "testing-for-json-web-token-vulnerabilities"
@@ -11519,7 +11519,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "ef0e8ea91b9b0f90ddc8d426c550afe3e8edf4457a6d6fb4bef2d716db78561f",
+      "sha256": "773bc2e3ddb71f93cfe356debef6c75edbcf835bf83f367a4e200e807e976670",
       "skill_file": "vendors/cybersecurity/skills/testing-for-open-redirect-vulnerabilities/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-open-redirect-vulnerabilities",
       "vendor_name": "testing-for-open-redirect-vulnerabilities"
@@ -11568,7 +11568,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "a73e9f9f7299b1f6483b83526a3d393c36f57fc72a130f068360dac6dd5ca5e6",
+      "sha256": "086d5cf8fd640eb9aa5d66d6f983b992393edfb35c0932dad5203faed0c14b3f",
       "skill_file": "vendors/cybersecurity/skills/testing-for-sensitive-data-exposure/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-sensitive-data-exposure",
       "vendor_name": "testing-for-sensitive-data-exposure"
@@ -11608,7 +11608,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "e0f6de856b0f794a01f4c2f3738901bac6724993a63bf389037247a4ecf3b53a",
+      "sha256": "7eb75bc6499dab8d1aea8e52d00dd8760acd53fafc4942b185fbba7f2bec6b4b",
       "skill_file": "vendors/cybersecurity/skills/testing-for-xml-injection-vulnerabilities/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-xml-injection-vulnerabilities",
       "vendor_name": "testing-for-xml-injection-vulnerabilities"
@@ -11647,7 +11647,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "860db7857cfcc0e3007a9cc92c97a32bb53b107b66b63451be34e7b6879e505b",
+      "sha256": "d2501aefc63508db7732a4adaf251d8f0beff93decab5b466754a5f8744e2994",
       "skill_file": "vendors/cybersecurity/skills/testing-for-xxe-injection-vulnerabilities/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-for-xxe-injection-vulnerabilities",
       "vendor_name": "testing-for-xxe-injection-vulnerabilities"
@@ -11686,7 +11686,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "ed9e3494a1da1adb35eae7829e8688598db8e3aa38568f5747b3b1bc7afd4898",
+      "sha256": "d7b6b10a9ea2538b0b3cdb2bc4e608ecf84c27d188cbfcb5d2854579653319f9",
       "skill_file": "vendors/cybersecurity/skills/testing-jwt-token-security/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-jwt-token-security",
       "vendor_name": "testing-jwt-token-security"
@@ -11725,7 +11725,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "e408b10192e6b572062e25811d92171bdb0d8904802b471c80cceab4c53f2a03",
+      "sha256": "16282697f2e1cc8f333add3d30ce3ce0c33d4c0e8e66074ce4f583cc210d3278",
       "skill_file": "vendors/cybersecurity/skills/testing-oauth2-implementation-flaws/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-oauth2-implementation-flaws",
       "vendor_name": "testing-oauth2-implementation-flaws"
@@ -11764,7 +11764,7 @@
         "version": "1.0.0"
       },
       "repository": "cybersecurity",
-      "sha256": "77536319b105410d1057605dda17294c8fde0b0fe1f7698c018e99d41f8e60b4",
+      "sha256": "cba115f065e0d6b9170909e97ccb3b216da6b5605377b40d1fba667641724aaf",
       "skill_file": "vendors/cybersecurity/skills/testing-websocket-api-security/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/testing-websocket-api-security",
       "vendor_name": "testing-websocket-api-security"
@@ -11798,7 +11798,7 @@
         "version": "1.0"
       },
       "repository": "cybersecurity",
-      "sha256": "4aea03518fc5df72e0be4e1c07480c17984e2f9130012f9431b4c889da9805f3",
+      "sha256": "f2f8c711b28518e5beb56f167cd40faee104842ebec9ebdf6c59789b62dad263",
       "skill_file": "vendors/cybersecurity/skills/verifying-build-provenance-with-slsa-sigstore/SKILL.md",
       "source_path": "vendors/cybersecurity/skills/verifying-build-provenance-with-slsa-sigstore",
       "vendor_name": "verifying-build-provenance-with-slsa-sigstore"
