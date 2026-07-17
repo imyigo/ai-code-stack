@@ -1,0 +1,15 @@
+[submodule "ecc"]
+	path = vendors/ecc
+	url = https://github.com/affaan-m/everything-claude-code.git
+[submodule "gstack"]
+	path = vendors/gstack
+	url = https://github.com/garrytan/gstack.git
+[submodule "graphify"]
+	path = vendors/graphify
+	url = https://github.com/Graphify-Labs/graphify.git
+[submodule "caveman"]
+	path = vendors/caveman
+	url = https://github.com/JuliusBrussee/caveman.git
+[submodule "cybersecurity"]
+	path = vendors/cybersecurity
+	url = https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git

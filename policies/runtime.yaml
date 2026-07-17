@@ -1,0 +1,20 @@
+schema_version: 1
+platforms:
+  - claude-code
+  - antigravity
+  - codex
+  - cursor
+limits:
+  max_skills_per_agent: 5
+  max_active_subagents: 3
+  nested_subagents: false
+  cross_platform_delegation: false
+  pass_full_chat_history: false
+  require_task_contract: true
+  require_acceptance_criteria: true
+  require_owned_paths_for_parallel_work: true
+execution:
+  central_scheduler: false
+  cross_platform_event_bus: false
+  shared_agent_memory_runtime: false
+  platform_to_platform_agent_calls: false

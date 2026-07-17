@@ -1,0 +1,6 @@
+---
+description: Central AI Code Stack routing and release policy
+alwaysApply: true
+---
+
+Use gstack for process, ECC for technical expertise, Graphify only for non-local architecture/impact work, and require a passing security gate before ship. Do not inline vendor skill documents into this rule.

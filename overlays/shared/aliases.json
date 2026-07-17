@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "aliases": {
+    "benchmark": { "source": "ECC", "vendor_name": "benchmark" },
+    "gstack-benchmark": { "source": "gstack", "vendor_name": "benchmark" }
+  }
+}

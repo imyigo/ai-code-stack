@@ -131,7 +131,7 @@ Graphify çalışma zamanı denetiminde:
 - `graphify-mcp` binary’si çalışıyordu.
 - Paralel extraction için Codex `multi_agent` özelliği açıktı.
 - Denetlenen örnek projede Graphify indeksi yoktu.
-- Codex MCP sunucu kaydı henüz yapılmamıştı.
+- Codex MCP sunucu kaydı etkinleştirildi; `graphifyy[mcp]==0.9.17` ile gerçek stdio başlangıcı doğrulandı.
 
 ### 4. Cybersecurity Skills: dar kapsamlı uzmanlık
 
@@ -252,7 +252,7 @@ Testler yeniden çalıştırılır.
 Yeni doğrulama kanıtı olmadan push yapılmaz.
 ```
 
-Denetim sırasında gstack ship akışının test, review ve secret redaction kapıları bulundu. Ancak CSO raporundaki açık güvenlik bulgularını otomatik okuyup release’i durduran teknik bağlantı henüz kanıtlanamadı. Bu nedenle güvenlik-release zinciri şu anda kısmen talimat seviyesinde çalışıyor.
+`gstack-ship` içindeki Step 16.5 artık versioned `security-release-gate.sh` dosyasını push öncesinde çalıştırır. Riskli diff için CSO raporu yoksa, rapor okunamıyorsa, raporun diff parmak izi güncel değişikliklerle eşleşmiyorsa veya çözülmemiş `CRITICAL/HIGH` bulgu varsa release hata koduyla durur. Risk sınıflandırması yapılamaması da fail-closed kabul edilir.
 
 ## Görev örnekleri
 
@@ -330,12 +330,9 @@ gstack-cso
 
 ### Bilinen eksikler
 
-1. `benchmark` adı ECC ve gstack tarafından iki kez tanımlanıyor.
-2. Graphify MCP binary’si kurulu fakat Codex MCP bağlantısı yok.
-3. Her proje için otomatik Graphify indeksi bulunmuyor; bu bilinçli olarak koşullu tutulmalı.
-4. Security bulgusu ile ship arasında teknik fail-closed bağlantı henüz yok.
-5. Kaynak depolar ile kurulu skill klasörleri canlı bağlı değil; skill’ler kopya olarak duruyor.
-6. Windows PowerShell execution policy nedeniyle `bun` ve `codex` için `.cmd` girişleri gerekebilir.
+1. Her proje için otomatik Graphify indeksi bulunmuyor; bu bilinçli olarak koşullu tutuluyor ve yalnız mimari/dependency/impact analizi gerektiğinde oluşturuluyor.
+2. Kaynak depolar ile kurulu skill klasörleri canlı bağlı değil; `install.sh` bu nedenle commit-sabitli kopyalama ve doğrulama kullanıyor.
+3. Windows PowerShell execution policy nedeniyle `bun` ve `codex` için `.cmd` girişleri gerekebilir.
 
 ## Doğrulanan çalışma zamanları
 
@@ -346,7 +343,7 @@ gstack-cso
 | Node.js | `v24.18.0` | Çalışıyor |
 | Git | `2.54.0.windows.1` | Çalışıyor |
 | Graphify | `0.9.17` | Çalışıyor |
-| Graphify MCP binary | `0.9.17` paketi | Çalışıyor, Codex bağlantısı eksik |
+| Graphify MCP binary | `0.9.17` + MCP extra | Çalışıyor ve Codex’e bağlı |
 
 ## Öncelik kuralları
 
@@ -361,6 +358,56 @@ gstack-cso
 7. Caveman iletişim optimizasyonu
 
 Graphify bir orkestratör değildir. Cybersecurity paketi ana CSO değildir. Caveman teknik karar vermez.
+
+## Aynı sürümleri kurma
+
+`versions.lock` bütün repository commit’lerini ve çalışma zamanı sürümlerini sabitler. Installer mevcut config ve override dosyalarını değiştirmeden önce otomatik backup alır. Bir komut veya final doğrulama başarısız olursa trap rollback çalışır.
+
+Windows üzerinde Git Bash ile:
+
+```bash
+"/c/Program Files/Git/bin/bash.exe" ./install.sh
+```
+
+macOS/Linux üzerinde:
+
+```bash
+./install.sh
+```
+
+Installer:
+
+1. Node, Bun ve Codex sürümlerini doğrular.
+2. Eksik kaynak repoları indirir.
+3. Her repoyu `versions.lock` commit’ine sabitler.
+4. Graphify MCP extra bağımlılığını sabit sürümle kurar.
+5. ECC, gstack, Graphify, Caveman ve allowlist içindeki Cybersecurity skill’lerini yerleştirir.
+6. Graphify, benchmark ve security gate override’larını idempotent uygular.
+7. Global `AGENTS.md` ve MCP config’i yerleştirir.
+8. `verify.sh final` geçmeden başarı bildirmez.
+
+## Doğrulama
+
+```bash
+./verify.sh final
+```
+
+Doğrulanan alanlar:
+
+- Graphify CLI ve MCP binary
+- Graphify MCP config
+- Toplam skill sayısı
+- Duplicate skill adları
+- Eksik `SKILL.md`
+- Bozuk symlink
+- Benchmark routing
+- Koşullu Graphify routing
+- Security release gate kurulumu
+- Global fail-closed politika
+- Version manifest
+- 115 öğelik Cybersecurity allowlist
+
+Son doğrulama sonucu: **23 PASS, 0 FAIL**.
 
 ## Sonuç
 

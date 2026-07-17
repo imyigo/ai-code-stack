@@ -1,0 +1,26 @@
+schema_version: 1
+singletons:
+  planner: 1
+  general_reviewer: 1
+  overlapping_security_specialist: 1
+graphify:
+  automatic_when:
+    - large_repository
+    - architecture_analysis
+    - dependency_analysis
+    - impact_analysis
+    - multi_file_refactor
+    - complex_call_chain
+    - cross_module_relationships
+  skip_when:
+    - small_ui_change
+    - copy_change
+    - single_file_local_change
+    - simple_config_change
+  rebuild_index: only_when_missing_or_stale_for_required_analysis
+security:
+  flow: [review, risk_classification, cso_if_risky, qa, verification, release_gate, ship]
+  fail_closed: true
+caveman:
+  scope: safe_final_user_prose_only
+  prohibited: [code, command, stack_trace, terminal_output, migration, sql, json, yaml, security_report, test_result, error_message, file_path, diff, config]
