@@ -7,6 +7,7 @@ from pathlib import Path
 from .installer import create_backup, install, rollback
 from .manifests import build_manifests
 from .adapters import build_adapters
+from .global_install import global_install
 from .verifier import verify
 from .result import Result
 
@@ -31,6 +32,10 @@ def cmd_build_manifests(args: argparse.Namespace) -> int:
 
 def cmd_build_adapters(args: argparse.Namespace) -> int:
     return _print(build_adapters(args.root.resolve(), dry_run=args.dry_run))
+
+
+def cmd_global_install(args: argparse.Namespace) -> int:
+    return _print(global_install(args.root.resolve(), dry_run=not args.apply))
 
 
 def cmd_rollback(args: argparse.Namespace) -> int:
@@ -64,6 +69,14 @@ def build_parser() -> argparse.ArgumentParser:
     adapters_parser = subparsers.add_parser("build-adapters", help="Regenerate platform adapter files from common roles.", parents=[root_parent])
     adapters_parser.add_argument("--dry-run", action="store_true")
     adapters_parser.set_defaults(func=cmd_build_adapters)
+
+    global_install_parser = subparsers.add_parser(
+        "global-install",
+        help="Place generated config into installed platforms (Codex, Claude Code, Cursor) outside this repo. Dry-run by default; hand-written files are never overwritten.",
+        parents=[root_parent],
+    )
+    global_install_parser.add_argument("--apply", action="store_true", help="Write files. Without this flag, only plans and reports what would be written.")
+    global_install_parser.set_defaults(func=cmd_global_install)
 
     backup_parser = subparsers.add_parser("backup", help="Create a timestamped backup of manifests, adapters, and locks.", parents=[root_parent])
     backup_parser.set_defaults(func=cmd_backup)

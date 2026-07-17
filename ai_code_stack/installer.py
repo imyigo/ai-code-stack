@@ -27,6 +27,36 @@ def install_plan(root: Path) -> list[dict]:
     ]
 
 
+def _submodule_populated(vendor_dir: Path) -> bool:
+    return vendor_dir.is_dir() and any(vendor_dir.iterdir())
+
+
+def ensure_submodules(root: Path, dry_run: bool) -> list[dict]:
+    lock = load_lock(root)
+    statuses: list[dict] = []
+    missing: list[str] = []
+    for name in lock["repositories"]:
+        vendor_dir = root / "vendors" / name
+        if _submodule_populated(vendor_dir):
+            statuses.append({"vendor": name, "status": "already_present"})
+        else:
+            missing.append(name)
+            statuses.append({"vendor": name, "status": "would_fetch" if dry_run else "fetching"})
+    if not missing or dry_run:
+        return statuses
+    subprocess.run(
+        ["git", "-C", str(root), "submodule", "update", "--init", "--", *(f"vendors/{name}" for name in missing)],
+        check=True, capture_output=True, text=True, timeout=600,
+    )
+    for entry in statuses:
+        if entry["vendor"] in missing:
+            entry["status"] = "fetched" if _submodule_populated(root / "vendors" / entry["vendor"]) else "fetch_failed"
+    failed = [entry["vendor"] for entry in statuses if entry["status"] == "fetch_failed"]
+    if failed:
+        raise RuntimeError(f"submodule fetch did not populate: {', '.join(failed)}")
+    return statuses
+
+
 def create_backup(root: Path) -> Path:
     backup = root / "backups" / datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     backup.mkdir(parents=True, exist_ok=False)
@@ -44,7 +74,9 @@ def install(root: Path, dry_run: bool) -> Result:
     plan = install_plan(root)
     artifacts = [str(root / "versions.lock"), str(root / "manifests"), str(root / "adapters")]
     if dry_run:
-        return Result("success", "Install dry-run completed; no files, links, configs, submodules, commits, or remotes changed.", ["Review the plan before --apply."], artifacts, {"actions": plan})
+        submodules = ensure_submodules(root, dry_run=True)
+        return Result("success", "Install dry-run completed; no files, links, configs, submodules, commits, or remotes changed.", ["Review the plan before --apply."], artifacts, {"actions": plan, "submodules": submodules})
+    submodules = ensure_submodules(root, dry_run=False)
     backup = create_backup(root)
     try:
         adapters = build_adapters(root)
@@ -53,7 +85,7 @@ def install(root: Path, dry_run: bool) -> Result:
         journal = json.loads(journal_path.read_text(encoding="utf-8"))
         journal.update({"status": "applied", "actions": plan})
         journal_path.write_text(json.dumps(journal, indent=2), encoding="utf-8")
-        return Result("success", "Canonical manifests and adapters installed. Live platform configs and skill roots were preserved.", ["Run verify before activating any optional link plan."], artifacts + [str(backup)], {"manifests": manifests.to_dict(), "adapters": adapters.to_dict()})
+        return Result("success", "Canonical manifests and adapters installed. Live platform configs and skill roots were preserved.", ["Run verify before activating any optional link plan.", "Run 'ai-code-stack global-install --apply' to place generated config into installed platforms (Codex/Claude Code/Cursor/Antigravity), if desired."], artifacts + [str(backup)], {"submodules": submodules, "manifests": manifests.to_dict(), "adapters": adapters.to_dict()})
     except Exception:
         rollback(root, backup)
         raise

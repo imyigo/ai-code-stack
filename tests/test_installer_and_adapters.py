@@ -2,9 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from ai_code_stack import installer as installer_module
 from ai_code_stack import platforms as platforms_module
 from ai_code_stack.adapters import adapter_outputs
-from ai_code_stack.installer import install, install_plan
+from ai_code_stack.installer import ensure_submodules, install, install_plan
 from ai_code_stack.inventory import build_capabilities, load_roles
 from ai_code_stack.platforms import detect_platforms
 
@@ -106,3 +107,38 @@ def test_link_strategy_plan_posix_has_no_junction(monkeypatch):
     detected = detect_platforms()
     assert "junction" not in detected["link_strategy"]
     assert detected["link_strategy"][0] == "symlink"
+
+
+def test_ensure_submodules_dry_run_never_calls_git(repo_root: Path, monkeypatch):
+    def fail_if_called(*args, **kwargs):
+        raise AssertionError("subprocess.run must not be called during a dry run")
+
+    monkeypatch.setattr(installer_module.subprocess, "run", fail_if_called)
+    statuses = ensure_submodules(repo_root, dry_run=True)
+    assert statuses
+    assert all(entry["status"] in ("already_present", "would_fetch") for entry in statuses)
+
+
+def test_ensure_submodules_reports_already_present_when_populated(repo_root: Path):
+    statuses = ensure_submodules(repo_root, dry_run=True)
+    names = {entry["vendor"] for entry in statuses}
+    assert names == {"ecc", "gstack", "graphify", "caveman", "cybersecurity"}
+    assert all(entry["status"] == "already_present" for entry in statuses)
+
+
+def test_ensure_submodules_detects_missing_vendor_dir(tmp_path: Path, repo_root: Path, monkeypatch):
+    fake_root = tmp_path / "fake-root"
+    fake_root.mkdir()
+    (fake_root / "vendors").mkdir()
+    (fake_root / "vendors" / "ecc").mkdir()
+    (fake_root / "vendors" / "ecc" / "skills").mkdir()
+    # gstack left empty on purpose to simulate an uninitialized submodule.
+    (fake_root / "vendors" / "gstack").mkdir()
+
+    def fake_load_lock(root: Path):
+        return {"repositories": {"ecc": {}, "gstack": {}}}
+
+    monkeypatch.setattr(installer_module, "load_lock", fake_load_lock)
+    statuses = ensure_submodules(fake_root, dry_run=True)
+    by_vendor = {entry["vendor"]: entry["status"] for entry in statuses}
+    assert by_vendor == {"ecc": "already_present", "gstack": "would_fetch"}

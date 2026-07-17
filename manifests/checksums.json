@@ -4,15 +4,27 @@
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "c18fde48981a0fc1faed5baabb8ce2d10c61a646c3e0a66e55001a550ac06bfc"
+      "sha256": "8baa3f4f9d8d16b4b6137385948740bfc4dd733c076f54045d9f74a37c6b137e"
     },
     {
       "path": ".gitmodules",
       "sha256": "2a8cc05aa6b4225bee46c8eb5a727e03cb39c914a0d262a410293c34bed50171"
     },
     {
+      "path": ".gstack/security-reports/2026-07-17T161109Z-cso-report.json",
+      "sha256": "05bbd126c4458db2399781d75b8582d5682bcd17d4ef3c631683f6295b6a8582"
+    },
+    {
       "path": "AGENTS.md",
       "sha256": "a9029f65a8d507564dbbc8f3d7ac4f7ed3a5ce4f9ca892192ab276a7dc879dc4"
+    },
+    {
+      "path": "AI Code Stack Kur.bat",
+      "sha256": "14b80dc7b56e47813068e3d53fef0c33b33ffc4eb79dba0ce3cf22d3f9ad9340"
+    },
+    {
+      "path": "AI Code Stack Kur.command",
+      "sha256": "509c5a7aa094b2d247d9651b1e8ee0ce012e1a21e28abf3c3ca63e9649e42e15"
     },
     {
       "path": "CLAUDE.md",
@@ -20,7 +32,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "fa5453a1914ebec98002e9b64c2887f5785858d90dbca59e35667e87f38acc11"
+      "sha256": "af2788f3bc30be87ff87b9f08825c4f4e443054a381f9b3ed15e796f26a4d055"
     },
     {
       "path": "adapters/antigravity/CAPABILITY.generated.md",
@@ -188,75 +200,75 @@
     },
     {
       "path": "adapters/codex/role-profiles/architect.md",
-      "sha256": "02e2d1ceaaaca58d594be149fa2791472a97136b5f81bc10b899ed8b40e3e82f"
+      "sha256": "58b17ceec882a61d8fccc93c271e223a9f0066b37c9e90b6426096690e1a0d95"
     },
     {
       "path": "adapters/codex/role-profiles/backend-engineer.md",
-      "sha256": "2c72b6e93c2a470cb6bc00e3b624ec1d81d4e3c8a46b0eb78e020019f81121eb"
+      "sha256": "314ff8b169d84dde91f2d5e560c98c5f428801a2d965aafc268f1b9bfb8eefef"
     },
     {
       "path": "adapters/codex/role-profiles/browser-qa.md",
-      "sha256": "c5a20c80685150749c4726381c2449a11585f8ced479b947994fa4f1e0a24381"
+      "sha256": "b02bc4e2b06fb3cda03f55d3f8bfd0b9ed52764fbbcbb2ca7f0c89d6765103cf"
     },
     {
       "path": "adapters/codex/role-profiles/database-engineer.md",
-      "sha256": "69be7283d9b4a4defc87143a3402718cdb35bd9e6bb1dd4379e3232837079ede"
+      "sha256": "2dd37bc6b105b4bcf9c2cdfbd3502b97dea3b4043e2e7e254f2cd14121843f26"
     },
     {
       "path": "adapters/codex/role-profiles/desktop-engineer.md",
-      "sha256": "1e40ff0f43f8709f40db83824915368701893dc023da6268f9b91621aea3070c"
+      "sha256": "09a18a15f4b41d0d943976571aaf5de7f335b93f5633d04d899ab4083ff23c7f"
     },
     {
       "path": "adapters/codex/role-profiles/devops-engineer.md",
-      "sha256": "d9c297fde3ad71c0faee3ca5cf1e6887d9c521448446d782e7b1d433badbdd8d"
+      "sha256": "31256a05151f908a9c73f5b6833b17f7c27a7b738073dfb6afada46272a02ff5"
     },
     {
       "path": "adapters/codex/role-profiles/frontend-engineer.md",
-      "sha256": "bc4673d09c309d1845ab5dfdf842517876d386ca97f558ce661813f4a497b3f6"
+      "sha256": "c5f5e35696aaace533cadeaea9f21d4d8247d6e47f23e5416c29a1d3d22c4097"
     },
     {
       "path": "adapters/codex/role-profiles/implementer.md",
-      "sha256": "1a11c2f9216b5de3412b9523d4a0649daa8e0d20d2e0b40e2408e79547bf6210"
+      "sha256": "f244539f855ede0ebac1631e166b69b37387d16f35e49437173deec47eb11568"
     },
     {
       "path": "adapters/codex/role-profiles/mobile-engineer.md",
-      "sha256": "d53aeb8db8111a705013b8864f79c1a24a047cb06cbdff7c5cc7229ddf923e16"
+      "sha256": "d4a156abb5288c5524722a99a077a5f960dde3b49329297dbd24411f9ef455a6"
     },
     {
       "path": "adapters/codex/role-profiles/product-planner.md",
-      "sha256": "4e54dd2fe916c4485ec6aefea58855c026adfc653b01ee7f0c89faeec6821cee"
+      "sha256": "639ae2eb7dc182666976d3dad18968532ac3eae7a7f821ccd596f0a336ef46ef"
     },
     {
       "path": "adapters/codex/role-profiles/release-reviewer.md",
-      "sha256": "72942d3fce103a214876451a1b5826d46c127ccac16cff36509162c3177a571b"
+      "sha256": "5ce23bf58d6d958cfa6638363d45e6d9c749e169274e546cd6a455141da4d16f"
     },
     {
       "path": "adapters/codex/role-profiles/repository-maintainer.md",
-      "sha256": "a49b15d2eabaf6b15cd53374fbaaa2d0097cff68b4c3627eae37b10716e6d5df"
+      "sha256": "e8ab584222aacfb997f6e3cef44723fc4eecb8dbcd863409590790b93fe60a8b"
     },
     {
       "path": "adapters/codex/role-profiles/requirements-analyst.md",
-      "sha256": "75517024cb8ce5a06fd590913199c431052fa1c7a7af508882d4c9b58e619eea"
+      "sha256": "1435f62e1c0af59c3db1df977525b33e5e0191998f93b07036ecf500d2b80bf2"
     },
     {
       "path": "adapters/codex/role-profiles/researcher.md",
-      "sha256": "21931a306178642b26de9b0db9a51fa8dc0e782b24bda6a45b79453cd10ead81"
+      "sha256": "355abf56beb57fb9b794c6a659fbd29b43078e10fc1b8bb7860d7f112b3722f7"
     },
     {
       "path": "adapters/codex/role-profiles/reviewer.md",
-      "sha256": "aa14a93ad555a08dc61b39d7831fa06e9cc171e6a6db71b3f3bd1b2d2b383e0f"
+      "sha256": "9bebcc475a3f44dc19f88542460dd2d6bc7cef6a7edb2364269285d439aac75b"
     },
     {
       "path": "adapters/codex/role-profiles/security-reviewer.md",
-      "sha256": "c21160b8e6767e0bf49464a06ff00c2e3de30eaf3482687f8b292d0767a52a09"
+      "sha256": "39887067531430b030a41cd8ecc39620e47805ca577c1d3ab91208b70e915135"
     },
     {
       "path": "adapters/codex/role-profiles/test-engineer.md",
-      "sha256": "cd346b6c0dfa6fb143c442adcc4582562cf611a885e3f3f067e1020dd393c2b6"
+      "sha256": "136860c671a0f6f10f10cc1252ebfa9db3087aa8f5f1ebb8d9ccda14020ba425"
     },
     {
       "path": "adapters/codex/role-profiles/ui-specialist.md",
-      "sha256": "ec29f8306c78c173512ae3d1fb62823253e058ba4455c8946d3f5b6ecf214794"
+      "sha256": "892aeaa741b011366708d2ce460984996cd4eb4a1d30375d2b905e3483ac2ad4"
     },
     {
       "path": "adapters/cursor/.cursor/rules/ai-code-stack.mdc",
@@ -348,7 +360,7 @@
     },
     {
       "path": "ai_code_stack/cli.py",
-      "sha256": "189e25d6895ca51e02dfddacf13924464589f898ee6bc7140b474d201c37f947"
+      "sha256": "75065056a20033e23ec59b18a302bdd408b8f4eda7fb14a66f2911397d33e556"
     },
     {
       "path": "ai_code_stack/filesystem.py",
@@ -359,8 +371,12 @@
       "sha256": "288e7f61ee1c4e4932d2714de4f12d18cf32278e54e39d25868b565eb6fca397"
     },
     {
+      "path": "ai_code_stack/global_install.py",
+      "sha256": "e9184c2c922d309960ba86a75ace933b05f089de72769777f897430b23aed0c9"
+    },
+    {
       "path": "ai_code_stack/installer.py",
-      "sha256": "7c0e61e590354e1afd240986212f726b1b8b5bc9133af88d307547603d079053"
+      "sha256": "e3d7f83dcec0a46735d25c7bef589c6b5c7b410fe58d095682179f021f321703"
     },
     {
       "path": "ai_code_stack/inventory.py",
@@ -405,6 +421,10 @@
     {
       "path": "config/security-release-gate.sh",
       "sha256": "b27e92d44d49c69bc36bdedeaa6da843ed258829142afb5200484d75df578e4d"
+    },
+    {
+      "path": "global-install.sh",
+      "sha256": "b5ffb9965faf500171336b1a30ee01d5cb6c51596fd6eba9a250ca45401545b8"
     },
     {
       "path": "install.sh",
@@ -547,6 +567,14 @@
       "sha256": "68cf2a8c9ee0bf2175be31a6f360d5bab255853b91347355689a1eaf6ca96866"
     },
     {
+      "path": "scripts/global-install.ps1",
+      "sha256": "d8e8edef9526ae7cc30ac5d7e07b4a872dc09b75ba3a27ceeab27260b099e467"
+    },
+    {
+      "path": "scripts/global_install.py",
+      "sha256": "9e480d06dda32b3f73e029ffd3ff032a277607f13e034623ba5b7c11e7757be5"
+    },
+    {
       "path": "scripts/install.ps1",
       "sha256": "d9a2253453e2a6d6e548f7e3819492f7266df008aefaeb34738424481ef4e4fe"
     },
@@ -587,8 +615,12 @@
       "sha256": "6a857d8aeb024b989d1c4e9fcbf7492f5f90f8569c5b8299918459c16b8e370d"
     },
     {
+      "path": "tests/test_global_install.py",
+      "sha256": "e9f45cc63770e1d45bd3b481110389cae3d020cbbd4bc189c212de99a5337430"
+    },
+    {
       "path": "tests/test_installer_and_adapters.py",
-      "sha256": "b7e44ef38202601ac16027feae48a558246ce242d995f92176d2a255b6ee675d"
+      "sha256": "61ce19fee6e206179164c5faaa7b8ae725e107cbb179a53392208457422b6228"
     },
     {
       "path": "tests/test_registry.py",
